@@ -131,12 +131,16 @@ components:
       properties:
         player:
           type: string
-        item:
+        itemName:
           type: string
+        quantity:
+          type: integer
     SellRequest:
       type: object
       properties:
         player:
           type: string
-        item:
+        itemName:
           type: string
+        quantity:
+          type: integer
