@@ -1,16 +1,13 @@
 const itemService = require('./itemService.js');
 const walletService = require('./walletService.js');
 const rconService = require('./rconService.js');
+const AWS = require('aws-sdk');
+const docClient = new AWS.DynamoDB.DocumentClient();
 
 async function buyItem(player, itemName, quantity) {
-    // check if item is real
-    // check if player has enough money
-    // check if player is online
-    // charge player
-    // give item
     let item;
     try {
-        item = await itemService.getItem(itemName);
+        item = await itemService.getItem(docClient, itemName);
     } catch (err) {
         if (err.message == 'item not found') {
             throw err;
