@@ -27,22 +27,6 @@ exports.handler = async (event, context) => {
                 errorDetail: err.message
             }
         }
-    } else if (event.requestContext.routeKey == 'POST /charge') {
-        const player = JSON.parse(event.body).player;
-        const amount = JSON.parse(event.body).amount;
-        try {
-            await paymentService.charge(player, amount);
-        } catch (err) {
-            if (err.message == 'wallet not found') {
-                statusCode = '404';
-            } else {
-                statusCode = '500';
-            }
-            body = {
-                error: 'charge failed',
-                errorDetail: err.message
-            }
-        }
     } else {
         statusCode = '404'
     }
