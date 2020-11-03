@@ -1,0 +1,118 @@
+openapi: 3.0.1
+info:
+  title: Mc-Shop
+  version: 1.0.0
+externalDocs:
+  description: View on GitHub
+  url: https://github.com/Ubunfu/mc-shop
+tags:
+- name: shop
+  description: Shop Operations
+paths:
+  /items:
+    get:
+      tags:
+        - shop
+      summary: Get all items available for sale
+      operationId: getItems
+      responses:
+        200:
+          description: OK
+        500:
+          description: Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResp'
+  /items/search:
+    get:
+      tags:
+        - shop
+      summary: Search for items available for sale
+      operationId: searchItems
+      responses:
+        200:
+          description: OK
+        500:
+          description: Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResp'
+  /buyItem:
+    post:
+      tags:
+        - shop
+      summary: Purchase an item from the shop
+      operationId: buyItem
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BuyRequest'
+        required: true
+      responses:
+        200:
+          description: OK
+        400:
+          description: Invalid Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResp'
+        500:
+          description: Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResp'
+  /sellItem:
+    post:
+      tags:
+        - shop
+      summary: Sell an item to the shop
+      operationId: sellItem
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SellRequest'
+        required: true
+      responses:
+        200:
+          description: OK
+        400:
+          description: Invalid Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResp'
+        500:
+          description: Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResp'
+components:
+  schemas:
+    ErrorResp:
+      type: object
+      properties:
+        error:
+          type: string
+        errorDetail:
+          type: string
+    BuyRequest:
+      type: object
+      properties:
+        player:
+          type: string
+        item:
+          type: string
+    SellRequest:
+      type: object
+      properties:
+        player:
+          type: string
+        item:
+          type: string

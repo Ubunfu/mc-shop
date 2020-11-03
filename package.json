@@ -1,0 +1,34 @@
+{
+  "name": "mc-shop",
+  "version": "0.1.0",
+  "description": "Shop for buying and selling items Minecraft items",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha --recursive test/",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ubunfu/mc-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ubunfu/mc-shop/issues"
+  },
+  "homepage": "https://github.com/Ubunfu/mc-shop#readme",
+  "dependencies": {
+    "aws-sdk": "^2.784.0",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.1"
+  }
+}
