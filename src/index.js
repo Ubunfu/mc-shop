@@ -1,5 +1,5 @@
 const { log } = require('./util/logger.js');
-const paymentService = require('./service/paymentService.js');
+const shopService = require('./service/shopService.js');
 
 exports.handler = async (event, context) => {
     await log('Received event: ' + JSON.stringify(event, null, 2));
@@ -10,13 +10,20 @@ exports.handler = async (event, context) => {
         'Content-Type': 'application/json',
     };
 
-    if (event.requestContext.routeKey == 'GET /items') {
+    if (event.requestContext.routeKey == 'POST /buyItem') {
+        const player = JSON.parse(event.body).player;
+        const itemName = JSON.parse(event.body).itemName;
+        const quantity = JSON.parse(event.body).quantity;
         try {
-            await paymentService.pay(player, amount);
+            await shopService.buyItem(player, itemName, quantity);
         } catch (err) {
-            statusCode = '500';
+            if (err.message == 'item not found') {
+                statusCode = '404';
+            } else {
+                statusCode = '500';
+            }
             body = {
-                error: 'payment failed',
+                error: 'purchase failed',
                 errorDetail: err.message
             }
         }
