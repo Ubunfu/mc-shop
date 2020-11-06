@@ -95,23 +95,30 @@ describe('shopService: When buyItem is called', function() {
                 it('Throws error with correct message');
             });
             describe('And player is online', function() {
-                it('Charges player', async function() {
-                    const itemServiceMock = sinon.stub(itemService, "getItem")
-                        .returns(AN_ITEM_50);
-                    const getWalletMock = sinon.stub(walletService, "getWallet")
-                        .returns(A_WALLET_100);
-                    const chargeWalletMock = sinon.stub(walletService, "chargeWallet")
-                        .returns(null);
-                    const rconServiceMock = sinon.stub(rconService, "giveItem")
-                        .returns(null);
+                let itemServiceMock, getWalletMock, chargeWalletMock, rconServiceMock;
+                beforeEach(async function() {
+                    itemServiceMock = sinon.stub(itemService, "getItem").returns(AN_ITEM_50);
+                    getWalletMock = sinon.stub(walletService, "getWallet").returns(A_WALLET_100);
+                    chargeWalletMock = sinon.stub(walletService, "chargeWallet").returns(null);
+                    rconServiceMock = sinon.stub(rconService, "giveItem").returns(null);
                     await shopService.buyItem(PLAYER, ITEM_NAME, QUANTITY);
-                    expect(chargeWalletMock.calledOnceWith(PLAYER, (AN_ITEM_50.price * QUANTITY))).to.be.true;
-                    expect(rconServiceMock.calledOnceWith(PLAYER, AN_ITEM_50.itemId, QUANTITY)).to.be.true;
+                });
+                afterEach(function() {
                     itemServiceMock.restore();
                     getWalletMock.restore();
+                    chargeWalletMock.restore();
                     rconServiceMock.restore();
                 });
-                it('Gives player items');
+                it('Charges player', async function() {
+                    expect(chargeWalletMock.calledOnceWith(PLAYER, (AN_ITEM_50.price * QUANTITY))).to.be.true;
+                });
+                it('Gives player items', async function() {
+                    expect(rconServiceMock.calledOnce).to.be.true;
+                    expect(rconServiceMock.lastCall.args[1]).to.be.equal(PLAYER);
+                    expect(rconServiceMock.lastCall.args[2]).to.be.equal(ITEM_ID);
+                    expect(rconServiceMock.lastCall.args[3]).to.be.equal(QUANTITY);
+                    // expect(rconServiceMock.calledOnceWith(PLAYER, AN_ITEM_50.itemId, QUANTITY)).to.be.true;
+                });
             });
         });
     });

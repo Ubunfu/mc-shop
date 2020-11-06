@@ -3,6 +3,12 @@ const walletService = require('./walletService.js');
 const rconService = require('./rconService.js');
 const AWS = require('aws-sdk');
 const docClient = new AWS.DynamoDB.DocumentClient();
+const RCON = require('rcon');
+
+const SERVER_HOST = process.env.SERVER_HOST;
+const SERVER_RCON_PORT = process.env.SERVER_RCON_PORT;
+const SERVER_RCON_PASS = process.env.SERVER_RCON_PASS;
+const rconClient = new RCON(SERVER_HOST, SERVER_RCON_PORT, SERVER_RCON_PASS);
 
 async function buyItem(player, itemName, quantity) {
     let item;
@@ -35,7 +41,7 @@ async function buyItem(player, itemName, quantity) {
     }
 
     try {
-        await rconService.giveItem(player, item.itemId, quantity);
+        await rconService.giveItem(rconClient, player, item.itemId, quantity);
     } catch (err) {
         throw Error('error delivering item');
     }
