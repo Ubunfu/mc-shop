@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { log } = require('./util/logger.js');
 const shopService = require('./service/shopService.js');
 
