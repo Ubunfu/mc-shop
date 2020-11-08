@@ -10,7 +10,9 @@ async function giveItem(rconClient, player, itemId, quantity) {
 }
 
 async function buildCommand(player, itemId, quantity) {
-    return `/give ${player} ${itemId} ${quantity}`;
+    const rconCommand = `give ${player} ${itemId} ${quantity}`;
+    log('Constructed RCON command: ' + rconCommand);
+    return rconCommand;
 }
 
 async function setupClientListeners(rconClient) {
