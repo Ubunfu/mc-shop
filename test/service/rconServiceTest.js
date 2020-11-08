@@ -5,7 +5,7 @@ const expect = require('chai').expect;
 const A_PLAYER = 'player';
 const A_ITEM_ID = 'minecraft:diamond_axe';
 const QUANTITY = 5;
-const COMMAND_STRING = `/give ${A_PLAYER} ${A_ITEM_ID} ${QUANTITY}`;
+const COMMAND_STRING = `give ${A_PLAYER} ${A_ITEM_ID} ${QUANTITY}`;
 
 describe('rconService: When giveItem is called', function() {
     it('The proper command is issued', async function() {
