@@ -1,4 +1,10 @@
 # mc-shop
+[![Latest Release](https://img.shields.io/github/v/release/Ubunfu/mc-shop)](https://github.com/Ubunfu/mc-shop/releases)
+[![codecov](https://codecov.io/gh/Ubunfu/mc-shop/branch/master/graph/badge.svg?token=u6O5o3QNih)](https://codecov.io/gh/Ubunfu/mc-shop)
+[![CircleCI](https://img.shields.io/circleci/build/github/Ubunfu/mc-shop?logo=circleci)](https://app.circleci.com/pipelines/github/Ubunfu/mc-shop)
+![Contrubutors](https://img.shields.io/github/contributors/Ubunfu/mc-shop?color=blue)
+![Last Commit](https://img.shields.io/github/last-commit/Ubunfu/mc-shop)
+
 Operates the shop experience where items can be bought and sold.
 
 This service runs as an AWS lambda function.
