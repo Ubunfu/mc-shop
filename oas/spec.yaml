@@ -18,6 +18,10 @@ paths:
       responses:
         200:
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItemsResp'
         500:
           description: Server Error
           content:
@@ -28,11 +32,22 @@ paths:
     get:
       tags:
         - shop
-      summary: Search for items available for sale
+      summary: Search for items available for sale.  Returns just a few items.
       operationId: searchItems
+      parameters: 
+        - name: search
+          in: query
+          description: URL-encoded search terms for shop items
+          required: true
+          schema:
+            type: string
       responses:
         200:
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItemsResp'
         500:
           description: Server Error
           content:
@@ -95,6 +110,15 @@ paths:
                 $ref: '#/components/schemas/ErrorResp'
 components:
   schemas:
+    ItemsResp:
+      type: array
+      items:
+        type: object
+        properties:
+          itemName:
+            type: string
+          price:
+            type: integer
     ErrorResp:
       type: object
       properties:
@@ -107,12 +131,16 @@ components:
       properties:
         player:
           type: string
-        item:
+        itemName:
           type: string
+        quantity:
+          type: integer
     SellRequest:
       type: object
       properties:
         player:
           type: string
-        item:
+        itemName:
           type: string
+        quantity:
+          type: integer
