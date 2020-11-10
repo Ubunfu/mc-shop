@@ -1,6 +1,9 @@
 require('dotenv').config();
 const { log } = require('./util/logger.js');
 const shopService = require('./service/shopService.js');
+const itemService = require('./service/itemService.js');
+const AWS = require('aws-sdk');
+const docClient = new AWS.DynamoDB.DocumentClient();
 
 exports.handler = async (event, context) => {
     await log('Received event: ' + JSON.stringify(event, null, 2));
@@ -28,6 +31,26 @@ exports.handler = async (event, context) => {
                 errorDetail: err.message
             }
         }
+    } else if (event.requestContext.routeKey == 'GET /item') {
+        const itemName = event.queryStringParameters.item;
+        try {
+            const item = await itemService.getItem(docClient, itemName);
+            body = {
+                itemName: item.itemName,
+                price: item.price
+            }
+        } catch (err) {
+            if (err.message == 'item not found') {
+                statusCode = '404';
+            } else {
+                statusCode = '500';
+            }
+            body = {
+                error: 'failed to get item',
+                errorDetail: err.message
+            }
+        }
+
     } else {
         statusCode = '404'
     }
