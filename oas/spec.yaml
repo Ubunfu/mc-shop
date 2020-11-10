@@ -9,6 +9,32 @@ tags:
 - name: shop
   description: Shop Operations
 paths:
+  /item:
+    get:
+      tags:
+        - shop
+      summary: Get one item available for sale
+      operationId: getItem
+      parameters: 
+        - name: search
+          in: query
+          description: URL-encoded search terms for shop items
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItemResp'
+        500:
+          description: Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResp'
   /items:
     get:
       tags:
@@ -110,6 +136,13 @@ paths:
                 $ref: '#/components/schemas/ErrorResp'
 components:
   schemas:
+    ItemResp:
+      type: object
+      properties:
+        itemName: 
+          type: string
+        price:
+          type: string
     ItemsResp:
       type: array
       items:
