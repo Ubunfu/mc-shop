@@ -1,0 +1,379 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherrack"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherrack"
+                    },
+                    "price": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Obsidian"
+                    },
+                    "itemId": {
+                        "S": "minecraft:obsidian"
+                    },
+                    "price": {
+                        "N": "20"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Packed Ice"
+                    },
+                    "itemId": {
+                        "S": "minecraft:packed_ice"
+                    },
+                    "price": {
+                        "N": "20"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Podzol"
+                    },
+                    "itemId": {
+                        "S": "minecraft:podzol"
+                    },
+                    "price": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Prismarine"
+                    },
+                    "itemId": {
+                        "S": "minecraft:prismarine"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Quartz Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:quartz_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Red Mushroom Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:red_mushroom_block"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Sand"
+                    },
+                    "itemId": {
+                        "S": "minecraft:sand"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Sandstone"
+                    },
+                    "itemId": {
+                        "S": "minecraft:sandstone"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Soul Sand"
+                    },
+                    "itemId": {
+                        "S": "minecraft:soul_sand"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Soul Soil"
+                    },
+                    "itemId": {
+                        "S": "minecraft:soul_soil"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Sponge"
+                    },
+                    "itemId": {
+                        "S": "minecraft:sponge"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Stone"
+                    },
+                    "itemId": {
+                        "S": "minecraft:stone"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Terracotta"
+                    },
+                    "itemId": {
+                        "S": "minecraft:terracotta"
+                    },
+                    "price": {
+                        "N": "38"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Tube Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:tube_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Warped Hyphae"
+                    },
+                    "itemId": {
+                        "S": "minecraft:warped_hyphae"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Warped Nylium"
+                    },
+                    "itemId": {
+                        "S": "minecraft:warped_nylium"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Warped Stem"
+                    },
+                    "itemId": {
+                        "S": "minecraft:warped_stem"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Warped Wart Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:warped_wart_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Acacia Sapling"
+                    },
+                    "itemId": {
+                        "S": "minecraft:acacia_sapling"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Bamboo"
+                    },
+                    "itemId": {
+                        "S": "minecraft:bamboo"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Beetroot Seeds"
+                    },
+                    "itemId": {
+                        "S": "minecraft:beetroot_seeds"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Birch Sapling"
+                    },
+                    "itemId": {
+                        "S": "minecraft:birch_sapling"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Brown Mushroom"
+                    },
+                    "itemId": {
+                        "S": "minecraft:brown_mushroom"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cactus"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cactus"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        }
+    ]
+}

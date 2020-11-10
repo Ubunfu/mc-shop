@@ -1,0 +1,379 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Pink Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:pink_dye"
+                    },
+                    "price": {
+                        "N": "15"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Purple Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:purple_dye"
+                    },
+                    "price": {
+                        "N": "135"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Red Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:red_dye"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "White Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:white_dye"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Yellow Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:yellow_dye"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "White Wool"
+                    },
+                    "itemId": {
+                        "S": "minecraft:white_wool"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "String"
+                    },
+                    "itemId": {
+                        "S": "minecraft:string"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Charcoal"
+                    },
+                    "itemId": {
+                        "S": "minecraft:charcoal"
+                    },
+                    "price": {
+                        "N": "6"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Feather"
+                    },
+                    "itemId": {
+                        "S": "minecraft:feather"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Fermented Spider Eye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:fermented_spider_eye"
+                    },
+                    "price": {
+                        "N": "14"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Flint"
+                    },
+                    "itemId": {
+                        "S": "minecraft:flint"
+                    },
+                    "price": {
+                        "N": "80"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Gunpowder"
+                    },
+                    "itemId": {
+                        "S": "minecraft:gunpowder"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Leather"
+                    },
+                    "itemId": {
+                        "S": "minecraft:leather"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Nautilus Shell"
+                    },
+                    "itemId": {
+                        "S": "minecraft:nautilus_shell"
+                    },
+                    "price": {
+                        "N": "350"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Nether Star"
+                    },
+                    "itemId": {
+                        "S": "minecraft:nether_star"
+                    },
+                    "price": {
+                        "N": "10000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Phantom Membrane"
+                    },
+                    "itemId": {
+                        "S": "minecraft:phantom_membrane"
+                    },
+                    "price": {
+                        "N": "75"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Slime Ball"
+                    },
+                    "itemId": {
+                        "S": "minecraft:slime_ball"
+                    },
+                    "price": {
+                        "N": "100"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Snow Ball"
+                    },
+                    "itemId": {
+                        "S": "minecraft:snowball"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Spider Eye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:spider_eye"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Sugar"
+                    },
+                    "itemId": {
+                        "S": "minecraft:sugar"
+                    },
+                    "price": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Paper"
+                    },
+                    "itemId": {
+                        "S": "minecraft:paper"
+                    },
+                    "price": {
+                        "N": "7"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Book"
+                    },
+                    "itemId": {
+                        "S": "minecraft:book"
+                    },
+                    "price": {
+                        "N": "28"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Bone Meal"
+                    },
+                    "itemId": {
+                        "S": "minecraft:bone_meal"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Vines"
+                    },
+                    "itemId": {
+                        "S": "minecraft:vine"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Arrow"
+                    },
+                    "itemId": {
+                        "S": "minecraft:arrow"
+                    },
+                    "price": {
+                        "N": "88"
+                    }
+                }
+            }
+        }
+    ]
+}
