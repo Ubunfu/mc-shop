@@ -1,0 +1,379 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Baked Potato"
+                    },
+                    "itemId": {
+                        "S": "minecraft:baked_potato"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Bread"
+                    },
+                    "itemId": {
+                        "S": "minecraft:bread"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cooked Rabbit"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cooked_rabbit"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Pumpkin Pie"
+                    },
+                    "itemId": {
+                        "S": "minecraft:pumpkin_pie"
+                    },
+                    "price": {
+                        "N": "16"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cake"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cake"
+                    },
+                    "price": {
+                        "N": "20"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cookie"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cookie"
+                    },
+                    "price": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Honey Bottle"
+                    },
+                    "itemId": {
+                        "S": "minecraft:honey_bottle"
+                    },
+                    "price": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Sweet Berries"
+                    },
+                    "itemId": {
+                        "S": "minecraft:sweet_berries"
+                    },
+                    "price": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Ancient Debris"
+                    },
+                    "itemId": {
+                        "S": "minecraft:ancient_debris"
+                    },
+                    "price": {
+                        "N": "1250"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Andesite"
+                    },
+                    "itemId": {
+                        "S": "minecraft:andesite"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Basalt"
+                    },
+                    "itemId": {
+                        "S": "minecraft:basalt"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Bedrock"
+                    },
+                    "itemId": {
+                        "S": "minecraft:bedrock"
+                    },
+                    "price": {
+                        "N": "333"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Blackstone"
+                    },
+                    "itemId": {
+                        "S": "minecraft:blackstone"
+                    },
+                    "price": {
+                        "N": "15"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Blue Ice"
+                    },
+                    "itemId": {
+                        "S": "minecraft:blue_ice"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Bone Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:bone_block"
+                    },
+                    "price": {
+                        "N": "50"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Brain Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:brain_coral_block"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Brick"
+                    },
+                    "itemId": {
+                        "S": "minecraft:brick"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Brown Mushroom Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:brown_mushroom_block"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Bubble Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:bubble_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Clay"
+                    },
+                    "itemId": {
+                        "S": "minecraft:clay_ball"
+                    },
+                    "price": {
+                        "N": "7"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Clay Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:clay"
+                    },
+                    "price": {
+                        "N": "33"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Coarse Dirt"
+                    },
+                    "itemId": {
+                        "S": "minecraft:coarse_dirt"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cobblestone"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cobblestone"
+                    },
+                    "price": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Crimson Hyphae"
+                    },
+                    "itemId": {
+                        "S": "minecraft:crimson_hyphae"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Crimson Nylium"
+                    },
+                    "itemId": {
+                        "S": "minecraft:crimson_nylium"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        }
+    ]
+}

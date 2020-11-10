@@ -1,0 +1,379 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cocoa Beans"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cocoa_beans"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Crimson Fungus"
+                    },
+                    "itemId": {
+                        "S": "minecraft:crimson_fungus"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dark Oak Sapling"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dark_oak_sapling"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Jungle Sapling"
+                    },
+                    "itemId": {
+                        "S": "minecraft:jungle_sapling"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Melon Seeds"
+                    },
+                    "itemId": {
+                        "S": "minecraft:melon_seeds"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Nether Wart"
+                    },
+                    "itemId": {
+                        "S": "minecraft:nether_wart"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Oak Sapling"
+                    },
+                    "itemId": {
+                        "S": "minecraft:oak_sapling"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Pumpkin Seeds"
+                    },
+                    "itemId": {
+                        "S": "minecraft:pumpkin_seeds"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Red Mushroom"
+                    },
+                    "itemId": {
+                        "S": "minecraft:red_mushroom"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Spruce Sapling"
+                    },
+                    "itemId": {
+                        "S": "minecraft:spruce_sapling"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Sugar Cane"
+                    },
+                    "itemId": {
+                        "S": "minecraft:sugar_cane"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Sunflower"
+                    },
+                    "itemId": {
+                        "S": "minecraft:sunflower"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Warped Fungus"
+                    },
+                    "itemId": {
+                        "S": "minecraft:warped_fungus"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Seeds"
+                    },
+                    "itemId": {
+                        "S": "minecraft:wheat_seeds"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Black Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:black_dye"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Blue Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:blue_dye"
+                    },
+                    "price": {
+                        "N": "125"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Brown Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:brown_dye"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cyan Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cyan_dye"
+                    },
+                    "price": {
+                        "N": "160"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Gray Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:gray_dye"
+                    },
+                    "price": {
+                        "N": "15"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Green Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:green_dye"
+                    },
+                    "price": {
+                        "N": "30"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Light Blue Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:light_blue_dye"
+                    },
+                    "price": {
+                        "N": "135"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Light Gray Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:light_gray_dye"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Lime Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:lime_dye"
+                    },
+                    "price": {
+                        "N": "40"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Magenta Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:magenta_dye"
+                    },
+                    "price": {
+                        "N": "155"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Orange Dye"
+                    },
+                    "itemId": {
+                        "S": "minecraft:orange_dye"
+                    },
+                    "price": {
+                        "N": "35"
+                    }
+                }
+            }
+        }
+    ]
+}

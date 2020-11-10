@@ -1,0 +1,379 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Crying Obsidian"
+                    },
+                    "itemId": {
+                        "S": "minecraft:crying_obsidian"
+                    },
+                    "price": {
+                        "N": "200"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dark Prismarine"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dark_prismarine"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dead Brain Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dead_brain_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dead Bubble Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dead_bubble_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dead Fire Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dead_fire_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dead Horn Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dead_horn_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dead Tube Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dead_tube_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diorite"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diorite"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dirt"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dirt"
+                    },
+                    "price": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "End Stone"
+                    },
+                    "itemId": {
+                        "S": "minecraft:end_stone"
+                    },
+                    "price": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Fire Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:fire_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Gilded Blackstone"
+                    },
+                    "itemId": {
+                        "S": "minecraft:gilded_blackstone"
+                    },
+                    "price": {
+                        "N": "20"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Glass"
+                    },
+                    "itemId": {
+                        "S": "minecraft:glass"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Glowstone"
+                    },
+                    "itemId": {
+                        "S": "minecraft:glowstone"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Granite"
+                    },
+                    "itemId": {
+                        "S": "minecraft:granite"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Gravel"
+                    },
+                    "itemId": {
+                        "S": "minecraft:gravel"
+                    },
+                    "price": {
+                        "N": "8"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Horn Coral Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:horn_coral_block"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Ice"
+                    },
+                    "itemId": {
+                        "S": "minecraft:ice"
+                    },
+                    "price": {
+                        "N": "15"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Magma Block"
+                    },
+                    "itemId": {
+                        "S": "minecraft:magma_block"
+                    },
+                    "price": {
+                        "N": "15"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Mushroom Stem"
+                    },
+                    "itemId": {
+                        "S": "minecraft:mushroom_stem"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Mycelium"
+                    },
+                    "itemId": {
+                        "S": "minecraft:mycelium"
+                    },
+                    "price": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Nether Brick"
+                    },
+                    "itemId": {
+                        "S": "minecraft:nether_brick"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Nether Gold Ore"
+                    },
+                    "itemId": {
+                        "S": "minecraft:nether_gold_ore"
+                    },
+                    "price": {
+                        "N": "150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Nether Quartz Ore"
+                    },
+                    "itemId": {
+                        "S": "minecraft:nether_quartz_ore"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Scrap"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_scrap"
+                    },
+                    "price": {
+                        "N": "1300"
+                    }
+                }
+            }
+        }
+    ]
+}

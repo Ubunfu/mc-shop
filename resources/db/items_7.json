@@ -1,0 +1,379 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Elytra"
+                    },
+                    "itemId": {
+                        "S": "minecraft:elytra"
+                    },
+                    "price": {
+                        "N": "100000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Saddle"
+                    },
+                    "itemId": {
+                        "S": "minecraft:saddle"
+                    },
+                    "price": {
+                        "N": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Scaffolding"
+                    },
+                    "itemId": {
+                        "S": "minecraft:scaffolding"
+                    },
+                    "price": {
+                        "N": "165"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Fising Rod"
+                    },
+                    "itemId": {
+                        "S": "minecraft:fishing_rod"
+                    },
+                    "price": {
+                        "N": "23"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Flint and Steel"
+                    },
+                    "itemId": {
+                        "S": "minecraft:flint_and_steel"
+                    },
+                    "price": {
+                        "N": "160"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Lead"
+                    },
+                    "itemId": {
+                        "S": "minecraft:lead"
+                    },
+                    "price": {
+                        "N": "130"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Minecart"
+                    },
+                    "itemId": {
+                        "S": "minecraft:minecart"
+                    },
+                    "price": {
+                        "N": "360"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Shield"
+                    },
+                    "itemId": {
+                        "S": "minecraft:shield"
+                    },
+                    "price": {
+                        "N": "86"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Shears"
+                    },
+                    "itemId": {
+                        "S": "minecraft:shears"
+                    },
+                    "price": {
+                        "N": "150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Torch"
+                    },
+                    "itemId": {
+                        "S": "minecraft:torch"
+                    },
+                    "price": {
+                        "N": "14"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Soul Torch"
+                    },
+                    "itemId": {
+                        "S": "minecraft:soul_torch"
+                    },
+                    "price": {
+                        "N": "19"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "TNT"
+                    },
+                    "itemId": {
+                        "S": "minecraft:tnt"
+                    },
+                    "price": {
+                        "N": "32"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Totem of Undying"
+                    },
+                    "itemId": {
+                        "S": "minecraft:totem_of_undying"
+                    },
+                    "price": {
+                        "N": "500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Trident"
+                    },
+                    "itemId": {
+                        "S": "minecraft:trident"
+                    },
+                    "price": {
+                        "N": "2500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Bow"
+                    },
+                    "itemId": {
+                        "S": "minecraft:bow"
+                    },
+                    "price": {
+                        "N": "13"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Crossbow"
+                    },
+                    "itemId": {
+                        "S": "minecraft:crossbow"
+                    },
+                    "price": {
+                        "N": "170"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Axe"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_axe"
+                    },
+                    "price": {
+                        "N": "3102"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Pickaxe"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_pickaxe"
+                    },
+                    "price": {
+                        "N": "3102"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Shovel"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_shovel"
+                    },
+                    "price": {
+                        "N": "1102"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Sword"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_sword"
+                    },
+                    "price": {
+                        "N": "2100"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Helmet"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_helmet"
+                    },
+                    "price": {
+                        "N": "5100"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Chestplate"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_chestplate"
+                    },
+                    "price": {
+                        "N": "8100"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Leggings"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_leggings"
+                    },
+                    "price": {
+                        "N": "7100"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Boots"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_boots"
+                    },
+                    "price": {
+                        "N": "4100"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond Hoe"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond_hoe"
+                    },
+                    "price": {
+                        "N": "2102"
+                    }
+                }
+            }
+        }
+    ]
+}
