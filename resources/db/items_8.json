@@ -1,0 +1,274 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Axe"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_axe"
+                    },
+                    "price": {
+                        "N": "9152"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Pickaxe"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_pickaxe"
+                    },
+                    "price": {
+                        "N": "9152"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Shovel"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_shovel"
+                    },
+                    "price": {
+                        "N": "7152"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Sword"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_sword"
+                    },
+                    "price": {
+                        "N": "8150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Helmet"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_helmet"
+                    },
+                    "price": {
+                        "N": "11150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Chestplate"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_chestplate"
+                    },
+                    "price": {
+                        "N": "14150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Leggings"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_leggings"
+                    },
+                    "price": {
+                        "N": "13150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Boots"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_boots"
+                    },
+                    "price": {
+                        "N": "10150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Axe"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_axe"
+                    },
+                    "price": {
+                        "N": "222"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Pickaxe"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_pickaxe"
+                    },
+                    "price": {
+                        "N": "222"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Shovel"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_shovel"
+                    },
+                    "price": {
+                        "N": "82"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Sword"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_sword"
+                    },
+                    "price": {
+                        "N": "151"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Helmet"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_helmet"
+                    },
+                    "price": {
+                        "N": "360"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Chestplate"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_chestplate"
+                    },
+                    "price": {
+                        "N": "570"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Leggings"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_leggings"
+                    },
+                    "price": {
+                        "N": "500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Boots"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_boots"
+                    },
+                    "price": {
+                        "N": "290"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Chest"
+                    },
+                    "itemId": {
+                        "S": "minecraft:chest"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Ender Pearl"
+                    },
+                    "itemId": {
+                        "S": "minecraft:ender_pearl"
+                    },
+                    "price": {
+                        "N": "750"
+                    }
+                }
+            }
+        }
+    ]
+}

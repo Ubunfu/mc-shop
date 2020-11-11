@@ -1,5 +1,6 @@
 const sinon = require('sinon');
 const shopService = require('../src/service/shopService.js');
+const itemService = require('../src/service/itemService.js');
 const index = require('../src/index.js');
 const expect = require('chai').expect;
 
@@ -9,10 +10,71 @@ const EVENT_BUY_ITEM = {
     },
     body: '{"player": "player1", "itemName": "itemName", "quantity": 1}'
 }
+const EVENT_GET_ITEM = {
+    requestContext: {
+        routeKey: 'GET /item'
+    },
+    queryStringParameters: {
+        item: 'an item'
+    }
+}
+
+const ITEM_SERVICE_GET_ITEM_SUCCESS_RESP = {
+    itemName: 'an item',
+    itemId: 'minecraft:item',
+    price: 100
+}
 
 const ERROR_PURCHASE_FAILED = 'purchase failed';
+const ERROR_GET_ITEM_FAILED = 'failed to get item';
 const ERROR_DETAIL_ITEM_NOT_FOUND = 'item not found';
 const ERROR_DETAIL_OTHER_ERROR = 'some other error';
+
+const SUCCESS_RESP_GET_ITEM = {
+    itemName: 'an item',
+    price: 100
+}
+const ERROR_RESP_GET_ITEM_404 = {
+    error: ERROR_GET_ITEM_FAILED,
+    errorDetail: ERROR_DETAIL_ITEM_NOT_FOUND
+}
+const ERROR_RESP_GET_ITEM_500 = {
+    error: ERROR_GET_ITEM_FAILED,
+    errorDetail: ERROR_DETAIL_OTHER_ERROR
+}
+
+describe('index: When GET Item request is received', function() {
+    describe('And shop service returns an item', function() {
+        it('Should return the item', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .returns(ITEM_SERVICE_GET_ITEM_SUCCESS_RESP);
+            const indexResp = await index.handler(EVENT_GET_ITEM);
+            expect(indexResp.statusCode).to.be.equal('200');
+            expect(JSON.parse(indexResp.body)).to.be.deep.equal(SUCCESS_RESP_GET_ITEM);
+            itemServiceMock.restore();
+        });
+    });
+    describe('And item is not found', function() {
+        it('Should return HTTP 404', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .throws('errorName', ERROR_DETAIL_ITEM_NOT_FOUND);
+            const indexResp = await index.handler(EVENT_GET_ITEM);
+            expect(indexResp.statusCode).to.be.equal('404');
+            expect(JSON.parse(indexResp.body)).to.be.deep.equal(ERROR_RESP_GET_ITEM_404);
+            itemServiceMock.restore();
+        });
+    });
+    describe('And shop service fails', function() {
+        it('Should return 500 error', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .throws('errorName', ERROR_DETAIL_OTHER_ERROR);
+            const indexResp = await index.handler(EVENT_GET_ITEM);
+            expect(indexResp.statusCode).to.be.equal('500');
+            expect(JSON.parse(indexResp.body)).to.be.deep.equal(ERROR_RESP_GET_ITEM_500);
+            itemServiceMock.restore();
+        });
+    });
+});
 
 describe('index: When GET Items request is received', function() {
     describe('And shop service returns a list of items', function() {

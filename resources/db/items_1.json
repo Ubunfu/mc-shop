@@ -1,0 +1,379 @@
+{
+    "items": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Diamond"
+                    },
+                    "itemId": {
+                        "S": "minecraft:diamond"
+                    },
+                    "price": {
+                        "N": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Iron Ingot"
+                    },
+                    "itemId": {
+                        "S": "minecraft:iron_ingot"
+                    },
+                    "price": {
+                        "N": "70"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Netherite Ingot"
+                    },
+                    "itemId": {
+                        "S": "minecraft:netherite_ingot"
+                    },
+                    "price": {
+                        "N": "5950"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Gold Ingot"
+                    },
+                    "itemId": {
+                        "S": "minecraft:gold_ingot"
+                    },
+                    "price": {
+                        "N": "175"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Coal"
+                    },
+                    "itemId": {
+                        "S": "minecraft:coal"
+                    },
+                    "price": {
+                        "N": "8"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Lapis Lazuli"
+                    },
+                    "itemId": {
+                        "S": "minecraft:lapis_lazuli"
+                    },
+                    "price": {
+                        "N": "125"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Redstone Dust"
+                    },
+                    "itemId": {
+                        "S": "minecraft:redstone"
+                    },
+                    "price": {
+                        "N": "6"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Emerald"
+                    },
+                    "itemId": {
+                        "S": "minecraft:emerald"
+                    },
+                    "price": {
+                        "N": "1500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Acacia Log"
+                    },
+                    "itemId": {
+                        "S": "minecraft:acacia_log"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Acacia Wood"
+                    },
+                    "itemId": {
+                        "S": "minecraft:acacia_wood"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Birch Log"
+                    },
+                    "itemId": {
+                        "S": "minecraft:birch_log"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Birch Wood"
+                    },
+                    "itemId": {
+                        "S": "minecraft:birch_wood"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dark Oak Log"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dark_oak_log"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Dark Oak Wood"
+                    },
+                    "itemId": {
+                        "S": "minecraft:dark_oak_wood"
+                    },
+                    "price": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Jungle Log"
+                    },
+                    "itemId": {
+                        "S": "minecraft:jungle_log"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Jungle Wood"
+                    },
+                    "itemId": {
+                        "S": "minecraft:jungle_wood"
+                    },
+                    "price": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Oak Log"
+                    },
+                    "itemId": {
+                        "S": "minecraft:oak_log"
+                    },
+                    "price": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Oak Wood"
+                    },
+                    "itemId": {
+                        "S": "minecraft:oak_wood"
+                    },
+                    "price": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Spruce Log"
+                    },
+                    "itemId": {
+                        "S": "minecraft:spruce_log"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Spruce Wood"
+                    },
+                    "itemId": {
+                        "S": "minecraft:spruce_wood"
+                    },
+                    "price": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cooked Porkchop"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cooked_porkchop"
+                    },
+                    "price": {
+                        "N": "16"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Steak"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cooked_beef"
+                    },
+                    "price": {
+                        "N": "16"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cooked Chicken"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cooked_chicken"
+                    },
+                    "price": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cooked Mutton"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cooked_mutton"
+                    },
+                    "price": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Cooked Salmon"
+                    },
+                    "itemId": {
+                        "S": "minecraft:cooked_salmon)"
+                    },
+                    "price": {
+                        "N": "12"
+                    }
+                }
+            }
+        }
+    ]
+}
