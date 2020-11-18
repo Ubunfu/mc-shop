@@ -51,6 +51,25 @@ exports.handler = async (event, context) => {
             }
         }
 
+    } else if (event.requestContext.routeKey == 'POST /item/sell') {
+        const player = JSON.parse(event.body).player;
+        const itemName = JSON.parse(event.body).itemName;
+        const quantity = JSON.parse(event.body).quantity;
+        try {
+            await shopService.sellItem(player, itemName, quantity);
+        } catch (err) {
+            if (err.message == 'item not found') {
+                statusCode = '404';
+            } else if (err.message == 'item not sellable') {
+                statusCode = '403';
+            } else {
+                statusCode = '500';
+            }
+            body = {
+                error: 'sale failed',
+                errorDetail: err.message
+            }
+        }
     } else {
         statusCode = '404'
     }

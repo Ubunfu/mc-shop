@@ -18,6 +18,12 @@ const EVENT_GET_ITEM = {
         item: 'an item'
     }
 }
+const EVENT_SELL_ITEM = {
+    requestContext: {
+        routeKey: 'POST /item/sell'
+    },
+    body: '{"player": "player1", "itemName": "item name", "quantity": 1}'
+}
 
 const ITEM_SERVICE_GET_ITEM_SUCCESS_RESP = {
     itemName: 'an item',
@@ -27,7 +33,9 @@ const ITEM_SERVICE_GET_ITEM_SUCCESS_RESP = {
 
 const ERROR_PURCHASE_FAILED = 'purchase failed';
 const ERROR_GET_ITEM_FAILED = 'failed to get item';
+const ERROR_SELL_ITEM_FAILED = 'sale failed';
 const ERROR_DETAIL_ITEM_NOT_FOUND = 'item not found';
+const ERROR_DETAIL_ITEM_NOT_SELLABLE = 'item not sellable';
 const ERROR_DETAIL_OTHER_ERROR = 'some other error';
 
 const SUCCESS_RESP_GET_ITEM = {
@@ -40,6 +48,18 @@ const ERROR_RESP_GET_ITEM_404 = {
 }
 const ERROR_RESP_GET_ITEM_500 = {
     error: ERROR_GET_ITEM_FAILED,
+    errorDetail: ERROR_DETAIL_OTHER_ERROR
+}
+const ERROR_RESP_SELL_ITEM_404 = {
+    error: ERROR_SELL_ITEM_FAILED,
+    errorDetail: ERROR_DETAIL_ITEM_NOT_FOUND
+}
+const ERROR_RESP_SELL_ITEM_403 = {
+    error: ERROR_SELL_ITEM_FAILED,
+    errorDetail: ERROR_DETAIL_ITEM_NOT_SELLABLE
+}
+const ERROR_RESP_SELL_ITEM_500 = {
+    error: ERROR_SELL_ITEM_FAILED,
     errorDetail: ERROR_DETAIL_OTHER_ERROR
 }
 
@@ -146,16 +166,44 @@ describe('index: When Buy Item request is received', function() {
 
 describe('index: When Sell Item request is received', function() {
     describe('And shop service succeeds', function() {
-        it('Should return HTTP 200');
+        it('Should return HTTP 200', async function() {
+            const shopServiceMock = sinon.stub(shopService, "sellItem")
+                .returns({});
+            const indexResp = await index.handler(EVENT_SELL_ITEM);
+            expect(indexResp.statusCode).to.be.equal('200');
+            shopServiceMock.restore();
+        });
     });
     describe('And shop service fails', function() {
         describe('Because item not found', function() {
-            it('Should return 404 error');
-            it('Should return error code');
+            it('Should return 404 error', async function() {
+                const shopServiceMock = sinon.stub(shopService, "sellItem")
+                    .throws('errorName', ERROR_DETAIL_ITEM_NOT_FOUND);
+                const indexResp = await index.handler(EVENT_SELL_ITEM);
+                expect(indexResp.statusCode).to.be.equal('404');
+                expect(JSON.parse(indexResp.body)).to.be.deep.equal(ERROR_RESP_SELL_ITEM_404);
+                shopServiceMock.restore();
+            });
+        });
+        describe('Because item not sellable', function() {
+            it('Should return 403 error', async function() {
+                const shopServiceMock = sinon.stub(shopService, "sellItem")
+                    .throws('errorName', ERROR_DETAIL_ITEM_NOT_SELLABLE);
+                const indexResp = await index.handler(EVENT_SELL_ITEM);
+                expect(indexResp.statusCode).to.be.equal('403');
+                expect(JSON.parse(indexResp.body)).to.be.deep.equal(ERROR_RESP_SELL_ITEM_403);
+                shopServiceMock.restore();
+            });
         });
         describe('For any other reason', function() {
-            it('Should return 500 error');
-            it('Should return error code');
+            it('Should return 500 error', async function() {
+                const shopServiceMock = sinon.stub(shopService, "sellItem")
+                    .throws('errorName', ERROR_DETAIL_OTHER_ERROR);
+                const indexResp = await index.handler(EVENT_SELL_ITEM);
+                expect(indexResp.statusCode).to.be.equal('500');
+                expect(JSON.parse(indexResp.body)).to.be.deep.equal(ERROR_RESP_SELL_ITEM_500);
+                shopServiceMock.restore();
+            });
         });
     });
 });

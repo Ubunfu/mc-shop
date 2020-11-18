@@ -2,10 +2,14 @@ const shopService = require('../../src/service/shopService.js');
 const itemService = require('../../src/service/itemService.js');
 const walletService = require('../../src/service/walletService.js');
 const rconService = require('../../src/service/rconService.js');
+const rconSellService = require('../../src/service/rconSellService.js');
 const sinon = require('sinon');
 const expect = require('chai').expect;
 
 const ERROR_ITEM_NOT_FOUND = 'item not found';
+const ERROR_QUANTITY_NOT_POSITIVE = 'quantity must be positive';
+const ERROR_ITEM_NOT_SELLABLE = 'item not sellable'
+const ERROR_PROCESSING_ITEM_SELL = 'error processing item sell';
 const ERROR_CHECKING_ITEM = 'error checking item validity';
 const ERROR_GETTING_WALLET = 'error getting wallet';
 const ERROR_INSUFFICIENT_FUNDS = 'insufficient funds';
@@ -19,6 +23,12 @@ const AN_ITEM_50 = {
     itemName: ITEM_NAME,
     itemId: ITEM_ID,
     price: 50
+};
+const AN_ITEM_50_SELLABLE = {
+    itemName: ITEM_NAME,
+    itemId: ITEM_ID,
+    price: 50,
+    sellPrice: 10
 };
 const AN_ITEM_500 = {
     itemName: ITEM_NAME,
@@ -117,9 +127,92 @@ describe('shopService: When buyItem is called', function() {
                     expect(rconServiceMock.lastCall.args[1]).to.be.equal(PLAYER);
                     expect(rconServiceMock.lastCall.args[2]).to.be.equal(ITEM_ID);
                     expect(rconServiceMock.lastCall.args[3]).to.be.equal(QUANTITY);
-                    // expect(rconServiceMock.calledOnceWith(PLAYER, AN_ITEM_50.itemId, QUANTITY)).to.be.true;
                 });
             });
+        });
+    });
+});
+
+describe('shopService: When sellItem is called', function() {
+    describe('And item is not found', function() {
+        it('Throws error with correct message', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .throws('errorName', ERROR_ITEM_NOT_FOUND);
+            try {
+                await shopService.sellItem(PLAYER, ITEM_NAME, QUANTITY);
+                expect(true).to.be.false;
+            } catch (err) {
+                expect(err.message).to.be.equal(ERROR_ITEM_NOT_FOUND);
+            }
+            itemServiceMock.restore();
+        });
+    });
+    describe('And item is not sellable', function() {
+        it('Throws error with correct message', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .returns(AN_ITEM_50);
+            try {
+                await shopService.sellItem(PLAYER, ITEM_NAME, QUANTITY);
+                expect(true).to.be.false;
+            } catch (err) {
+                expect(err.message).to.be.equal(ERROR_ITEM_NOT_SELLABLE);
+            }
+            itemServiceMock.restore();
+        });
+    });
+    describe('And something else happened while checking the item', function() {
+        it('Throws error with correct message', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .throws('errorName', ERROR_OTHER_ERROR);
+            try {
+                await shopService.sellItem(PLAYER, ITEM_NAME, QUANTITY);
+                expect(true).to.be.false;
+            } catch (err) {
+                expect(err.message).to.be.equal(ERROR_CHECKING_ITEM);
+            }
+            itemServiceMock.restore();
+        });
+    });
+    describe('And desired quantity is not positive', function() {
+        it('Throws error with correct message', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .returns(AN_ITEM_50_SELLABLE);
+            try {
+                await shopService.sellItem(PLAYER, ITEM_NAME, -QUANTITY);
+                expect(true).to.be.false;
+            } catch (err) {
+                expect(err.message).to.be.equal(ERROR_QUANTITY_NOT_POSITIVE);
+            }
+            itemServiceMock.restore();
+        });
+    });
+    describe('Something else happened while processing item sell', function() {
+        it('Throws error with correct message', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem")
+                .returns(AN_ITEM_50_SELLABLE);
+            const rconSellServiceMock = sinon.stub(rconSellService, "processSell").throws();
+            try {
+                await shopService.sellItem(PLAYER, ITEM_NAME, QUANTITY);
+                expect(true).to.be.false;
+            } catch (err) {
+                expect(err.message).to.be.equal(ERROR_PROCESSING_ITEM_SELL);
+            }
+            itemServiceMock.restore();
+            rconSellServiceMock.restore();
+        });
+    });
+    describe('All pre-checks pass', function() {
+        it('Should try to complete the sale', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItem").returns(AN_ITEM_50_SELLABLE);
+            const rconSellServiceMock = sinon.stub(rconSellService, "processSell").returns(null);
+            await shopService.sellItem(PLAYER, ITEM_NAME, QUANTITY);
+            expect(rconSellServiceMock.calledOnce).to.be.true;
+            expect(rconSellServiceMock.lastCall.args[0]).to.be.equal(PLAYER);
+            expect(rconSellServiceMock.lastCall.args[1]).to.be.equal(ITEM_NAME);
+            expect(rconSellServiceMock.lastCall.args[2]).to.be.equal(ITEM_ID);
+            expect(rconSellServiceMock.lastCall.args[3]).to.be.equal(QUANTITY);
+            itemServiceMock.restore();
+            rconSellServiceMock.restore();
         });
     });
 });

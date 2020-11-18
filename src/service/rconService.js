@@ -1,4 +1,6 @@
 const { log } = require('../util/logger.js');
+const { sleep } = require('../util/sleep.js');
+
 const SERVER_RCON_CONNECT_DELAY_MS = process.env.SERVER_RCON_CONNECT_DELAY_MS;
 
 async function giveItem(rconClient, player, itemId, quantity) {
@@ -11,7 +13,7 @@ async function giveItem(rconClient, player, itemId, quantity) {
 
 async function buildCommand(player, itemId, quantity) {
     const rconCommand = `give ${player} ${itemId} ${quantity}`;
-    log('Constructed RCON command: ' + rconCommand);
+    log('[rconService] Constructed RCON command: ' + rconCommand);
     return rconCommand;
 }
 
@@ -25,12 +27,6 @@ async function setupClientListeners(rconClient) {
     }).on('error', function(err) {
         log("[rconService] RCON error!");
         log(err);
-    });
-}
-
-function sleep(ms) {
-    return new Promise((resolve) => {
-      setTimeout(resolve, ms);
     });
 }
 

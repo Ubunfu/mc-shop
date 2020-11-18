@@ -26,3 +26,6 @@ AWS's standard IAM role for Lambda micro services is plenty sufficient. The only
 | SERVER_RCON_PORT             | Port on which the RCON service is listening on the minecraft server.              | n/a     | Yes       |
 | SERVER_RCON_PASS             | Password required to authenticate with the RCON service.                          | n/a     | Yes       |
 | SERVER_RCON_CONNECT_DELAY_MS | A configurable number of milliseconds to wait after successfully connecting to the RCON service before sending the actual command.  500ms is probably fine, but it may need to be tweaked based on network latency. | n/a     | Yes       |
+| RCON_ASYNC_SLEEP_MS          | A configurable number of milliseconds to wait while the purchase process (which is asynchronous) tries to complete.  Setting this too low may cause payments for sold items to be lost.                 | n/a     | Yes       |
+| DISCORD_WEBHOOK_URL          | URL of the Discord webhook to which notifications will be posted.                 | n/a     | Yes       |
+| DISCORD_WEBHOOK_THUMBNAIL_URL| URL of the thumbnail image to embed within webhook posts.                         | n/a     | Yes       |
