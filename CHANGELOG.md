@@ -1,6 +1,9 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v0.3.1]
+* [Updating items data load with sell prices](https://github.com/Ubunfu/mc-shop/pull/7)
+
 ## [v0.3.0]
 * [Implementing sell item API](https://github.com/Ubunfu/mc-shop/pull/5)
 
