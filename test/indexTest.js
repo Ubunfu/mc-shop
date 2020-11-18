@@ -24,6 +24,11 @@ const EVENT_SELL_ITEM = {
     },
     body: '{"player": "player1", "itemName": "item name", "quantity": 1}'
 }
+const EVENT_UNKNOWN_REQ = {
+    requestContext: {
+        routeKey: 'GET /unknown/api'
+    }
+}
 
 const ITEM_SERVICE_GET_ITEM_SUCCESS_RESP = {
     itemName: 'an item',
@@ -62,6 +67,13 @@ const ERROR_RESP_SELL_ITEM_500 = {
     error: ERROR_SELL_ITEM_FAILED,
     errorDetail: ERROR_DETAIL_OTHER_ERROR
 }
+
+describe('index: When unknown request is received', function() {
+    it('Should return HTTP 404', async function() {
+        const indexResp = await index.handler(EVENT_UNKNOWN_REQ);
+        expect(indexResp.statusCode).to.be.equal('404');
+    });
+});
 
 describe('index: When GET Item request is received', function() {
     describe('And shop service returns an item', function() {

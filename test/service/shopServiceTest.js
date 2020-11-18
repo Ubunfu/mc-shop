@@ -12,7 +12,9 @@ const ERROR_ITEM_NOT_SELLABLE = 'item not sellable'
 const ERROR_PROCESSING_ITEM_SELL = 'error processing item sell';
 const ERROR_CHECKING_ITEM = 'error checking item validity';
 const ERROR_GETTING_WALLET = 'error getting wallet';
+const ERROR_CHARGING_WALLET = 'error charging wallet';
 const ERROR_INSUFFICIENT_FUNDS = 'insufficient funds';
+const ERROR_DELIVERING_ITEMS = 'error delivering item';
 const ERROR_OTHER_ERROR = 'other error';
 
 const PLAYER = 'player1';
@@ -101,10 +103,41 @@ describe('shopService: When buyItem is called', function() {
             });
         });
         describe('And player has enough money', function() {
-            describe('And player is not online', function() {
-                it('Throws error with correct message');
+            describe('And charge wallet fails', function() {
+                it('Throws error with correct message', async function() {
+                    const itemServiceMock = sinon.stub(itemService, "getItem").returns(AN_ITEM_50);
+                    const getWalletMock = sinon.stub(walletService, "getWallet").returns(A_WALLET_100);
+                    const chargeWalletMock = sinon.stub(walletService, "chargeWallet").throws('errorName', ERROR_OTHER_ERROR);
+                    try {
+                        await shopService.buyItem(PLAYER, ITEM_NAME, QUANTITY);
+                        expect(true).to.be.false;
+                    } catch (err) {
+                        expect(err.message).to.be.equal(ERROR_CHARGING_WALLET);
+                    }
+                    itemServiceMock.restore();
+                    getWalletMock.restore();
+                    chargeWalletMock.restore();
+                });
             });
-            describe('And player is online', function() {
+            describe('And rcon service fails', function() {
+                it('Throws error with correct message', async function() {
+                    const itemServiceMock = sinon.stub(itemService, "getItem").returns(AN_ITEM_50);
+                    const getWalletMock = sinon.stub(walletService, "getWallet").returns(A_WALLET_100);
+                    const chargeWalletMock = sinon.stub(walletService, "chargeWallet").returns();
+                    const rconServiceMock = sinon.stub(rconService, "giveItem").throws();
+                    try {
+                        await shopService.buyItem(PLAYER, ITEM_NAME, QUANTITY);
+                        expect(true).to.be.false;
+                    } catch (err) {
+                        expect(err.message).to.be.equal(ERROR_DELIVERING_ITEMS);
+                    }
+                    itemServiceMock.restore();
+                    getWalletMock.restore();
+                    chargeWalletMock.restore();
+                    rconServiceMock.restore();
+                });
+            });
+            describe('And everything goes fine', function() {
                 let itemServiceMock, getWalletMock, chargeWalletMock, rconServiceMock;
                 beforeEach(async function() {
                     itemServiceMock = sinon.stub(itemService, "getItem").returns(AN_ITEM_50);

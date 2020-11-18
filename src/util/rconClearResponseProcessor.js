@@ -15,7 +15,7 @@ async function processClearResponse(resp, itemName) {
     } else if (resp.includes('No player was found')) {
         await processNoPlayerFound();
     } else {
-        await postUnknownResponseToWebhook(resp);
+        await processUnknownResponse(resp);
     }
 }
 
@@ -28,16 +28,10 @@ async function processRemovedItems(resp, itemName) {
         throw Error('Error getting item from DB');
     }
 
-    let words, playerName, itemQuantity, totalPrice;
-    try {
-        words = resp.split(SPACE);
-        playerName = words[5];
-        itemQuantity = words[1];
-        totalPrice = item.sellPrice * itemQuantity;
-    } catch (err) {
-        log('[rconClearResponseProcessor] Error parsing RCON response: ' + err.message);
-        throw Error('Error parsing RCON response')
-    }
+    const words = resp.split(SPACE);
+    const playerName = words[5];
+    const itemQuantity = words[1];
+    const totalPrice = item.sellPrice * itemQuantity;
 
     try {
         await walletService.payWallet(playerName, totalPrice);
@@ -55,14 +49,9 @@ async function processRemovedItems(resp, itemName) {
 }
 
 async function processNoItemsFound(resp, itemName) {
-    let words, playerName;
-    try {
-        words = resp.split(SPACE);
-        playerName = words[6];
-    } catch (err) {
-        log('[rconClearResponseProcessor] Error parsing RCON response: ' + err.message);
-        throw Error('Error parsing RCON response')
-    }
+    
+    const words = resp.split(SPACE);
+    const playerName = words[6];
 
     try {
         await postNoItemsFoundToWebhook(itemName, playerName);
@@ -75,6 +64,15 @@ async function processNoItemsFound(resp, itemName) {
 async function processNoPlayerFound() {
     try {
         await postNoPlayerFoundToWebhook();
+    } catch (err) {
+        log('[rconClearResponseProcessor] Error posting to Discord: ' + err.message);
+        throw Error('Error posting notification to Discord');
+    }
+}
+
+async function processUnknownResponse(resp) {
+    try {
+        await postUnknownResponseToWebhook(resp);
     } catch (err) {
         log('[rconClearResponseProcessor] Error posting to Discord: ' + err.message);
         throw Error('Error posting notification to Discord');
