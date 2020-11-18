@@ -111,8 +111,15 @@ components:
         properties:
           itemName:
             type: string
+          itemId:
+            type: string
           price:
             type: integer
+          sellPrice:
+            type: integer
+        required:
+          - itemName
+          - itemId
     ErrorResp:
       type: object
       properties:

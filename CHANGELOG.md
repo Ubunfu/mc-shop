@@ -1,6 +1,8 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v0.4.0]
+* [Returning all item fields in get item response](https://github.com/Ubunfu/mc-shop/pull/10)
 ## [v0.3.1]
 * [Updating items data load with sell prices](https://github.com/Ubunfu/mc-shop/pull/7)
 

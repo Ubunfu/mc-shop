@@ -76,13 +76,13 @@ describe('index: When unknown request is received', function() {
 });
 
 describe('index: When GET Item request is received', function() {
-    describe('And shop service returns an item', function() {
+    describe('And shop service returns the item', function() {
         it('Should return the item', async function() {
             const itemServiceMock = sinon.stub(itemService, "getItem")
                 .returns(ITEM_SERVICE_GET_ITEM_SUCCESS_RESP);
             const indexResp = await index.handler(EVENT_GET_ITEM);
             expect(indexResp.statusCode).to.be.equal('200');
-            expect(JSON.parse(indexResp.body)).to.be.deep.equal(SUCCESS_RESP_GET_ITEM);
+            expect(JSON.parse(indexResp.body)).to.be.deep.equal(ITEM_SERVICE_GET_ITEM_SUCCESS_RESP);
             itemServiceMock.restore();
         });
     });
