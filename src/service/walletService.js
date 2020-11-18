@@ -1,4 +1,5 @@
 const axios = require('axios');
+const { log } = require('../util/logger');
 
 async function getWallet(walletId) {
     return await axios.get(
@@ -12,6 +13,7 @@ async function getWallet(walletId) {
 }
 
 async function chargeWallet(walletId, amount) {
+    log(`[walletService] Charging ${walletId} ${amount}`);
     await axios.post(
         process.env.SERVICE_WALLET_URL + '/charge',
         {
@@ -21,5 +23,17 @@ async function chargeWallet(walletId, amount) {
     );
 }
 
+async function payWallet(walletId, amount) {
+    log(`[walletService] Paying ${walletId} ${amount}`);
+    await axios.post(
+        process.env.SERVICE_WALLET_URL + '/pay',
+        {
+            player: walletId,
+            amount: amount
+        }
+    );
+}
+
 exports.getWallet = getWallet;
 exports.chargeWallet = chargeWallet;
+exports.payWallet = payWallet;

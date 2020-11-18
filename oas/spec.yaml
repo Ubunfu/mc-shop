@@ -41,51 +41,6 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResp'
-  /items:
-    get:
-      tags:
-        - shop
-      summary: Get all items available for sale
-      operationId: getItems
-      responses:
-        200:
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ItemsResp'
-        500:
-          description: Server Error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResp'
-  /items/search:
-    get:
-      tags:
-        - shop
-      summary: Search for items available for sale.  Returns just a few items.
-      operationId: searchItems
-      parameters: 
-        - name: search
-          in: query
-          description: URL-encoded search terms for shop items
-          required: true
-          schema:
-            type: string
-      responses:
-        200:
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ItemsResp'
-        500:
-          description: Server Error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResp'
   /buyItem:
     post:
       tags:
@@ -113,7 +68,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResp'
-  /sellItem:
+  /item/sell:
     post:
       tags:
         - shop
