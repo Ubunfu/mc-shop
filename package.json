@@ -1,6 +1,6 @@
 {
   "name": "mc-shop",
-  "version": "0.4.1",
+  "version": "1.0.0",
   "description": "Shop for buying and selling items Minecraft items",
   "main": "src/index.js",
   "directories": {

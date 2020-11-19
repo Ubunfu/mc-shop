@@ -6,7 +6,7 @@ const expect = require('chai').expect;
 
 const EVENT_BUY_ITEM = {
     requestContext: {
-        routeKey: 'POST /buyItem'
+        routeKey: 'POST /item/buy'
     },
     body: '{"player": "player1", "itemName": "itemName", "quantity": 1}'
 }
