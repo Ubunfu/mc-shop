@@ -323,6 +323,39 @@
                     }
                 }
             }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Blaze Rod"
+                    },
+                    "itemId": {
+                        "S": "minecraft:blaze_rod"
+                    },
+                    "price": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "itemName": {
+                        "S": "Egg"
+                    },
+                    "itemId": {
+                        "S": "minecraft:egg"
+                    },
+                    "price": {
+                        "N": "5"
+                    },
+                    "sellPrice": {
+                        "N": "0.1"
+                    }
+                }
+            }
         }
     ]
 }
