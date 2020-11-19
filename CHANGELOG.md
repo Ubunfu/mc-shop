@@ -1,6 +1,9 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v1.0.0]
+* [Updating api paths](https://github.com/Ubunfu/mc-shop/pull/13)
+
 ## [v0.4.1]
 * [Updating sell values for cheap stone items](https://github.com/Ubunfu/mc-shop/pull/9)
 

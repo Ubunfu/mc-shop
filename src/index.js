@@ -14,7 +14,7 @@ exports.handler = async (event, context) => {
         'Content-Type': 'application/json',
     };
 
-    if (event.requestContext.routeKey == 'POST /buyItem') {
+    if (event.requestContext.routeKey == 'POST /item/buy') {
         const player = JSON.parse(event.body).player;
         const itemName = JSON.parse(event.body).itemName;
         const quantity = JSON.parse(event.body).quantity;
