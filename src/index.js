@@ -35,10 +35,7 @@ exports.handler = async (event, context) => {
         const itemName = event.queryStringParameters.item;
         try {
             const item = await itemService.getItem(docClient, itemName);
-            body = {
-                itemName: item.itemName,
-                price: item.price
-            }
+            body = item;
         } catch (err) {
             if (err.message == 'item not found') {
                 statusCode = '404';
