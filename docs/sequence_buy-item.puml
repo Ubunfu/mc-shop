@@ -1,0 +1,40 @@
+@startuml sequence_buy-item
+
+title Sequence: Buy Item
+
+collections McSteve
+collections McShop
+collections McWallet
+database Items
+collections GameServer
+collections DiscordWebHook
+
+McSteve -> McShop: POST /item/buy (itemName, mcUsername, quantity)
+McShop -> Items: getItem(itemName)
+alt item found
+    McShop <-- Items: item(itemName, itemId, price, sellPrice)
+else item not found
+    McShop <-- Items: (empty)
+    McSteve <-- McShop: HTTP 404
+end
+McShop -> McWallet: getWallet(mcUsername)
+alt wallet exists
+    McShop <-- McWallet: wallet(mcUsername, balance)
+else wallet does not exist
+    McSteve <-- McShop: HTTP 500
+end
+
+McShop -> McShop: wallet.balance > (item.price * quantity) ?
+alt true (sufficient funds)
+    McShop -> McWallet: charge(mcUsername, (item.price * quantity))
+    alt charge successful
+        McShop <-- McWallet: HTTP 200
+        McShop -> GameServer: rconGivePlayerItems(mcUsername, item.itemId, quantity)
+    else charge failed
+        McShop <-- McWallet: ERROR
+        McSteve <-- McShop: HTTP 500
+    end
+else false (insufficient funds)
+    McSteve <-- McShop: HTTP 500
+end
+@enduml

@@ -1,6 +1,9 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v1.1.0]
+* [Adding UML diagrams](https://github.com/Ubunfu/mc-shop/pull/15)
+
 ## [v1.0.0]
 * [Updating api paths](https://github.com/Ubunfu/mc-shop/pull/13)
 

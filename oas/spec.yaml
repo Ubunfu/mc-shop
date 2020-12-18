@@ -16,9 +16,9 @@ paths:
       summary: Get one item available for sale
       operationId: getItem
       parameters: 
-        - name: search
+        - name: item
           in: query
-          description: URL-encoded search terms for shop items
+          description: URL-encoded name of a Shop item
           required: true
           schema:
             type: string

@@ -1,0 +1,22 @@
+@startuml sequence_get-item
+
+title Sequence: Get Item
+
+collections McSteve
+collections McShop
+collections McWallet
+database Items
+collections GameServer
+collections DiscordWebHook
+
+McSteve -> McShop: GET /item (itemName)
+McShop -> Items: getItem(itemName)
+alt item found
+    McShop <-- Items: item(itemName, itemId, price, sellPrice)
+    McSteve <-- McShop: HTTP 200 (item)
+else item not found
+    McShop <-- Items: (empty)
+    McSteve <-- McShop: HTTP 404
+end
+
+@enduml
