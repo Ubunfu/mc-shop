@@ -1,0 +1,42 @@
+@startuml sequence_sell-item
+
+title Sequence: Sell Item
+
+collections McSteve
+collections McShop
+collections McWallet
+database Items
+collections GameServer
+collections DiscordWebHook
+
+McSteve -> McShop: POST /item/sell (itemName, mcUsername, quantity)
+McShop -> Items: getItem(itemName)
+alt item found
+    McShop <-- Items: item(itemName, itemId, price, sellPrice)
+    McShop -> McShop: item.sellPrice exists ?
+    alt false (item not sellable)
+        McSteve <-- McShop: HTTP 403
+    end
+    McSteve <-- McShop: HTTP 200 Sale Request Submitted
+else item not found
+    McShop <-- Items: (empty)
+    McSteve <-- McShop: HTTP 404
+end
+
+McShop -> GameServer: rconClearItems(mcUsername, item.itemId, quantity)
+alt items removed
+    McShop <-- GameServer: rconResponse(removedCount)
+    McShop -> McWallet: pay(mcUsername, (item.sellPrice * removedCount))
+    DiscordWebHook <- McShop: post(transactionDetails)
+else player not online
+    McShop <-- GameServer: rconResponse("No player was found")
+    DiscordWebHook <- McShop: post(abortMessage)
+else item not found in player inventory
+    McShop <-- GameServer: rconResponse("No items were found on player")
+    DiscordWebHook <- McShop: post(abortMessage)
+else connection error
+    McShop <-- GameServer: ERROR
+    DiscordWebHook <- McShop: post(abortMessage)
+end
+
+@enduml
