@@ -1,0 +1,37 @@
+app: mc-shop
+org: ryanallen
+
+service: mc-shop
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+  role: arn:aws:iam::425071954352:role/service-role/mc-microservice-role
+  environment:
+    TABLE_ITEMS: items
+    LOGGER_ENABLED: true
+    SERVICE_WALLET_URL: ${env:SERVICE_WALLET_URL}
+    SERVER_HOST: ${env:SERVER_HOST}
+    SERVER_RCON_PORT: ${env:SERVER_RCON_PORT}
+    SERVER_RCON_PASS: ${env:SERVER_RCON_PASS}
+    SERVER_RCON_CONNECT_DELAY_MS: ${env:SERVER_RCON_CONNECT_DELAY_MS}
+    RCON_ASYNC_SLEEP_MS: ${env:RCON_ASYNC_SLEEP_MS}
+    DISCORD_WEBHOOK_URL: ${env:DISCORD_WEBHOOK_URL}
+    DISCORD_WEBHOOK_THUMBNAIL_URL: ${env:DISCORD_WEBHOOK_THUMBNAIL_URL}
+
+functions:
+  mc-shop:
+    handler: src/index.handler
+    events:
+      - httpApi:
+          path: /item
+          method: get
+      - httpApi:
+          path: /item/buy
+          method: post
+      - httpApi:
+          path: /item/sell
+          method: post
