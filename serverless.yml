@@ -11,7 +11,6 @@ provider:
   region: us-east-1
   role: arn:aws:iam::425071954352:role/service-role/mc-microservice-role
   environment:
-    TABLE_ITEMS: items
     LOGGER_ENABLED: true
     SERVICE_WALLET_URL: ${env:SERVICE_WALLET_URL}
     SERVER_HOST: ${env:SERVER_HOST}
@@ -21,6 +20,9 @@ provider:
     RCON_ASYNC_SLEEP_MS: ${env:RCON_ASYNC_SLEEP_MS}
     DISCORD_WEBHOOK_URL: ${env:DISCORD_WEBHOOK_URL}
     DISCORD_WEBHOOK_THUMBNAIL_URL: ${env:DISCORD_WEBHOOK_THUMBNAIL_URL}
+    TABLE_ITEMS:
+      Ref: 
+        - ItemsDatabase
 
 functions:
   mc-shop:
@@ -35,3 +37,16 @@ functions:
       - httpApi:
           path: /item/sell
           method: post
+
+resources:
+  Resources:
+    ItemsDatabase:
+      Type: "AWS::DynamoDB::Table"
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: "itemName"
+            AttributeType: "S"
+        KeySchema:
+          - AttributeName: "itemName"
+            KeyType: "HASH"
+        BillingMode: "PAY_PER_REQUEST"
