@@ -3,6 +3,7 @@ This project attempts to conform to [SemVer](https://semver.org/) guidelines whe
 
 ## [v1.2.0]
 * [Adding database to serverless stack](https://github.com/Ubunfu/mc-shop/pull/18)
+* [Configuring Discord cicd notifications](https://github.com/Ubunfu/mc-shop/pull/19)
 
 ## [v1.1.0]
 * [Adding UML diagrams](https://github.com/Ubunfu/mc-shop/pull/15)
