@@ -5,11 +5,14 @@ service: mc-shop
 
 frameworkVersion: '2'
 
+useDotenv: true
+
 provider:
   name: aws
   runtime: nodejs12.x
   region: us-east-1
-  role: arn:aws:iam::425071954352:role/service-role/mc-microservice-role
+  iam:
+    role: arn:aws:iam::425071954352:role/service-role/mc-microservice-role
   environment:
     LOGGER_ENABLED: true
     SERVICE_WALLET_URL: ${env:SERVICE_WALLET_URL}
