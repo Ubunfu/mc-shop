@@ -1,6 +1,9 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v1.2.1]
+* [Updating DML script and fixing sls 3.x deprecations](https://github.com/Ubunfu/mc-shop/pull/22)
+
 ## [v1.2.0]
 * [Adding database to serverless stack](https://github.com/Ubunfu/mc-shop/pull/18)
 * [Configuring Discord cicd notifications](https://github.com/Ubunfu/mc-shop/pull/19)
