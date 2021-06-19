@@ -2,7 +2,7 @@
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
 ## [v1.2.2]
-* [Proxying error message detail when wallet charges fail](https://github.com/Ubunfu/mc-shop/pull/)
+* [Proxying error message detail when wallet charges fail](https://github.com/Ubunfu/mc-shop/pull/24)
 
 ## [v1.2.1]
 * [Updating DML script and fixing sls 3.x deprecations](https://github.com/Ubunfu/mc-shop/pull/22)
