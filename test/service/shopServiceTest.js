@@ -104,7 +104,7 @@ describe('shopService: When buyItem is called', function() {
         });
         describe('And player has enough money', function() {
             describe('And charge wallet fails', function() {
-                it('Throws error with correct message', async function() {
+                it('Passes through error message from wallet service', async function() {
                     const itemServiceMock = sinon.stub(itemService, "getItem").returns(AN_ITEM_50);
                     const getWalletMock = sinon.stub(walletService, "getWallet").returns(A_WALLET_100);
                     const chargeWalletMock = sinon.stub(walletService, "chargeWallet").throws('errorName', ERROR_OTHER_ERROR);
@@ -112,7 +112,7 @@ describe('shopService: When buyItem is called', function() {
                         await shopService.buyItem(PLAYER, ITEM_NAME, QUANTITY);
                         expect(true).to.be.false;
                     } catch (err) {
-                        expect(err.message).to.be.equal(ERROR_CHARGING_WALLET);
+                        expect(err.message).to.be.equal(ERROR_OTHER_ERROR);
                     }
                     itemServiceMock.restore();
                     getWalletMock.restore();
