@@ -34,9 +34,7 @@ jobs:
           name: Install Dependencies
           command: npm install
       - aws-cli/setup
-      - serverless/setup:
-          app-name: mc-shop
-          org-name: ryanallen
+      - serverless/setup
       - run:
           name: Deploy
           command: serverless deploy --stage dev
