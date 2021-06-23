@@ -45,7 +45,7 @@ async function buyItem(player, itemName, quantity) {
         await walletService.chargeWallet(player, totalCost);
     } catch (err) {
         log('[shopService] error charging wallet: ' + err.message);
-        throw Error(err.message);
+        throw Error('error charging wallet');
     }
 
     try {
