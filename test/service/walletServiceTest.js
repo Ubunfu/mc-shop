@@ -6,10 +6,8 @@ const sinon = require('sinon');
 const AN_ERROR = 'an error';
 const A_PLAYER = 'player1';
 const A_WALLET = {
-    data: {
-        WalletId: A_PLAYER,
-        Balance: 100
-    }
+    WalletId: A_PLAYER,
+    Balance: 100
 };
 const AN_AMOUNT = 10;
 const PAY_WALLET_REQ = {
@@ -40,7 +38,7 @@ describe('walletService: When getWallet is called', function() {
             const getWalletMock = sinon.stub(axios, "get")
                 .returns(A_WALLET);
             const wallet = await walletService.getWallet(A_PLAYER);
-            expect(wallet).to.be.equal(A_WALLET.data);
+            expect(wallet).to.be.equal(A_WALLET);
             getWalletMock.restore();
         });
     });
