@@ -29,7 +29,7 @@ async function buyItem(player, itemName, quantity) {
 
     let wallet;
     try {
-        wallet = await walletService.getWallet(player);
+        wallet = await walletService.getWallet(player).data;
     } catch (err) {
         log('[shopService] error getting wallet: ' + err.message);
         throw Error('error getting wallet');
