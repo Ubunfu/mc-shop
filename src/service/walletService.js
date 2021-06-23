@@ -9,7 +9,7 @@ async function getWallet(walletId) {
                 id: walletId
             }
         }
-    );
+    ).data;
 }
 
 async function chargeWallet(walletId, amount) {
