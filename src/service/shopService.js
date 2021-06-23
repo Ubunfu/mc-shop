@@ -29,12 +29,14 @@ async function buyItem(player, itemName, quantity) {
 
     let wallet;
     try {
-        wallet = await walletService.getWallet(player).data;
+        wallet = await walletService.getWallet(player);
+        console.log(wallet);
+        wallet = wallet.data;
+        console.log(wallet);
     } catch (err) {
         log('[shopService] error getting wallet: ' + err.message);
         throw Error('error getting wallet');
     }
-    console.log(wallet);
     const totalCost = (item.price * quantity);
     if (wallet.Balance < totalCost) {
         log('[shopService] insufficient funds');
