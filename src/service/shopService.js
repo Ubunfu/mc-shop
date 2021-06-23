@@ -30,7 +30,6 @@ async function buyItem(player, itemName, quantity) {
     let wallet;
     try {
         wallet = await walletService.getWallet(player);
-        console.log(wallet);
         wallet = wallet.data;
         console.log(wallet);
     } catch (err) {
