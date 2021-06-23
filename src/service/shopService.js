@@ -34,7 +34,7 @@ async function buyItem(player, itemName, quantity) {
         log('[shopService] error getting wallet: ' + err.message);
         throw Error('error getting wallet');
     }
-    console.log(`[shopService] wallet: ${JSON.stringify(wallet)}`);
+    console.log(wallet);
     const totalCost = (item.price * quantity);
     if (wallet.Balance < totalCost) {
         log('[shopService] insufficient funds');
