@@ -38,8 +38,10 @@ const AN_ITEM_500 = {
     price: 500
 };
 const A_WALLET_100 = {
-    WalletId: PLAYER,
-    Balance: 100
+    data: {
+        WalletId: PLAYER,
+        Balance: 100
+    }
 };
 
 describe('shopService: When buyItem is called', function() {
