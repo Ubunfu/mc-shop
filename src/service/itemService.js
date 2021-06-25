@@ -14,7 +14,14 @@ async function getItem(docClient, itemName) {
 }
 
 async function getItems(docClient) {
-
+    let params = {
+        TableName: process.env.TABLE_ITEMS
+    }
+    const items = await docClient.scan(params).promise()
+    if (items.Items == undefined) {
+        return [];
+    }
+    return items.Items;
 }
 
 exports.getItem = getItem;
