@@ -67,6 +67,17 @@ exports.handler = async (event, context) => {
                 errorDetail: err.message
             }
         }
+    } else if (event.requestContext.routeKey == 'GET /items') {
+        try {
+            const item = await itemService.getItems(docClient);
+            body = item;
+        } catch (err) {
+            statusCode = '500';
+            body = {
+                error: 'failed to get item',
+                errorDetail: err.message
+            }
+        }
     } else {
         statusCode = '404'
     }
