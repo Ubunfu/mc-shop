@@ -35,6 +35,9 @@ functions:
           path: /item
           method: get
       - httpApi:
+          path: /items
+          method: get
+      - httpApi:
           path: /item/buy
           method: post
       - httpApi:
