@@ -13,4 +13,9 @@ async function getItem(docClient, itemName) {
     return item.Item;
 }
 
+async function getItems(docClient) {
+
+}
+
 exports.getItem = getItem;
+exports.getItems = getItems;
