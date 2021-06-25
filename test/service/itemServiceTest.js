@@ -16,6 +16,11 @@ const AN_ITEM = {
 const DB_ITEM_RESP = {
     Item: AN_ITEM
 };
+const DB_ITEMS_RESP = {
+    Items: [
+        AN_ITEM
+    ]
+};
 
 describe('itemService: When getItem is called', function() {
     describe('And the database throws an unexpected error', function() {
@@ -54,6 +59,33 @@ describe('itemService: When getItem is called', function() {
             };
             const item = await itemService.getItem(fakeDocClient, ITEM_NAME);
             expect(item).to.deep.equal(AN_ITEM);
+        });
+    });
+});
+
+describe('itemService: When getItems is called', function() {
+    describe('And the database throws an unexpected error', function() {
+        it('Throws the same error', async function() {
+            const fakeDocClient = {
+                scan: sinon.stub().returnsThis(),
+                promise: sinon.stub().rejects('errorName', ERROR_OTHER)
+            };
+            try {
+                await itemService.getItems(fakeDocClient);
+                expect(true).to.be.false;
+            } catch (err) {
+                expect(err.message).to.be.equal(ERROR_OTHER);
+            }
+        });
+    });
+    describe('And the database returns any result', function() {
+        it('Returns the item', async function() {
+            const fakeDocClient = {
+                scan: sinon.stub().returnsThis(),
+                promise: sinon.stub().resolves(DB_ITEMS_RESP)
+            };
+            const items = await itemService.getItems(fakeDocClient);
+            expect(items).to.deep.equal([AN_ITEM]);
         });
     });
 });

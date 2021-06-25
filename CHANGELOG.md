@@ -1,6 +1,9 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v1.3.0]
+* [Implementing get all items API](https://github.com/Ubunfu/mc-shop/pull/26)
+
 ## [v1.2.2]
 * [Proxying error message detail when wallet charges fail](https://github.com/Ubunfu/mc-shop/pull/24)
 

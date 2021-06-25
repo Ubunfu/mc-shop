@@ -18,6 +18,11 @@ const EVENT_GET_ITEM = {
         item: 'an item'
     }
 }
+const EVENT_GET_ITEMS = {
+    requestContext: {
+        routeKey: 'GET /items'
+    }
+}
 const EVENT_SELL_ITEM = {
     requestContext: {
         routeKey: 'POST /item/sell'
@@ -35,6 +40,10 @@ const ITEM_SERVICE_GET_ITEM_SUCCESS_RESP = {
     itemId: 'minecraft:item',
     price: 100
 }
+
+const ITEM_SERVICE_GET_ITEMS_SUCCESS_RESP = [
+    ITEM_SERVICE_GET_ITEM_SUCCESS_RESP
+]
 
 const ERROR_PURCHASE_FAILED = 'purchase failed';
 const ERROR_GET_ITEM_FAILED = 'failed to get item';
@@ -110,11 +119,27 @@ describe('index: When GET Item request is received', function() {
 
 describe('index: When GET Items request is received', function() {
     describe('And shop service returns a list of items', function() {
-        it('Should return the list');
+        it('Should return the list', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItems")
+                .returns(ITEM_SERVICE_GET_ITEMS_SUCCESS_RESP)
+            const indexResp = await index.handler(EVENT_GET_ITEMS);
+            expect(indexResp.statusCode).to.be.equal('200');
+            expect(JSON.parse(indexResp.body)).to.be.deep.equal(ITEM_SERVICE_GET_ITEMS_SUCCESS_RESP);
+            itemServiceMock.restore();
+        });
     });
     describe('And shop service fails', function() {
-        it('Should return 500 error');
-        it('Should return error code');
+        it('Should return 500 error', async function() {
+            const itemServiceMock = sinon.stub(itemService, "getItems")
+                .throws('errorName', ERROR_DETAIL_OTHER_ERROR)
+            const indexResp = await index.handler(EVENT_GET_ITEMS)
+            expect(indexResp.statusCode).to.be.equal('500')
+            expect(JSON.parse(indexResp.body)).to.be.deep.equal({
+                error: 'failed to get item',
+                errorDetail: ERROR_DETAIL_OTHER_ERROR
+            })
+            itemServiceMock.restore();
+        });
     });
 });
 
