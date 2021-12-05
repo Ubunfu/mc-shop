@@ -1,1184 +1,1409 @@
 [
-    {
-      "itemName": "Diamond Hoe",
-      "itemId": "minecraft:diamond_hoe",
-      "price": 2102,
-      "sellPrice": 525
-    },
-    {
-      "itemName": "Iron Axe",
-      "itemId": "minecraft:iron_axe",
-      "price": 222,
-      "sellPrice": 55
-    },
-    {
-      "itemName": "Redstone Dust",
-      "itemId": "minecraft:redstone",
-      "price": 6,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Dark Prismarine",
-      "itemId": "minecraft:dark_prismarine",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Sweet Berries",
-      "itemId": "minecraft:sweet_berries",
-      "price": 4,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Warped Stem",
-      "itemId": "minecraft:warped_stem",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Emerald",
-      "itemId": "minecraft:emerald",
-      "price": 250,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Sand",
-      "itemId": "minecraft:sand",
-      "price": 3,
-      "sellPrice": 0.05
-    },
-    {
-      "itemName": "Mycelium",
-      "itemId": "minecraft:mycelium",
-      "price": 1,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Mushroom Stem",
-      "itemId": "minecraft:mushroom_stem",
-      "price": 2,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Flint and Steel",
-      "itemId": "minecraft:flint_and_steel",
-      "price": 90,
-      "sellPrice": 22
-    },
-    {
-      "itemName": "Nether Gold Ore",
-      "itemId": "minecraft:nether_gold_ore",
-      "price": 150,
-      "sellPrice": 37
-    },
-    {
-      "itemName": "Clay",
-      "itemId": "minecraft:clay_ball",
-      "price": 7,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Red Mushroom",
-      "itemId": "minecraft:red_mushroom",
-      "price": 3,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Iron Leggings",
-      "itemId": "minecraft:iron_leggings",
-      "price": 500,
-      "sellPrice": 125
-    },
-    {
-      "itemName": "Cooked Porkchop",
-      "itemId": "minecraft:cooked_porkchop",
-      "price": 16,
-      "sellPrice": 4
-    },
-    {
-      "itemName": "Basalt",
-      "itemId": "minecraft:basalt",
-      "price": 10,
-      "sellPrice": 0.2
-    },
-    {
-      "itemName": "Soul Torch",
-      "itemId": "minecraft:soul_torch",
-      "price": 19,
-      "sellPrice": 5
-    },
-    {
-      "itemName": "Charcoal",
-      "itemId": "minecraft:charcoal",
-      "price": 6,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Cookie",
-      "itemId": "minecraft:cookie",
-      "price": 4,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Pink Dye",
-      "itemId": "minecraft:pink_dye",
-      "price": 15,
-      "sellPrice": 4
-    },
-    {
-      "itemName": "Diamond Shovel",
-      "itemId": "minecraft:diamond_shovel",
-      "price": 1102,
-      "sellPrice": 275
-    },
-    {
-      "itemName": "Netherite Axe",
-      "itemId": "minecraft:netherite_axe",
-      "price": 9152,
-      "sellPrice": 2288
-    },
-    {
-      "itemName": "Sandstone",
-      "itemId": "minecraft:sandstone",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Bubble Coral Block",
-      "itemId": "minecraft:bubble_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Ender Pearl",
-      "itemId": "minecraft:ender_pearl",
-      "price": 750,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Steak",
-      "itemId": "minecraft:cooked_beef",
-      "price": 16,
-      "sellPrice": 4
-    },
-    {
-      "itemName": "Nether Brick",
-      "itemId": "minecraft:nether_brick",
-      "price": 2,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Fising Rod",
-      "itemId": "minecraft:fishing_rod",
-      "price": 23,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Warped Hyphae",
-      "itemId": "minecraft:warped_hyphae",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Blaze Rod",
-      "itemId": "minecraft:blaze_rod",
-      "price": 10,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Saddle",
-      "itemId": "minecraft:saddle",
-      "price": 1000,
-      "sellPrice": 250
-    },
-    {
-      "itemName": "White Wool",
-      "itemId": "minecraft:white_wool",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Diamond Chestplate",
-      "itemId": "minecraft:diamond_chestplate",
-      "price": 8100,
-      "sellPrice": 2025
-    },
-    {
-      "itemName": "Melon Seeds",
-      "itemId": "minecraft:melon_seeds",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Red Mushroom Block",
-      "itemId": "minecraft:red_mushroom_block",
-      "price": 2,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Andesite",
-      "itemId": "minecraft:andesite",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Dead Bubble Coral Block",
-      "itemId": "minecraft:dead_bubble_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Glowstone",
-      "itemId": "minecraft:glowstone",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Pumpkin Pie",
-      "itemId": "minecraft:pumpkin_pie",
-      "price": 16,
-      "sellPrice": 4
-    },
-    {
-      "itemName": "Chest",
-      "itemId": "minecraft:chest",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Spruce Sapling",
-      "itemId": "minecraft:spruce_sapling",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Birch Log",
-      "itemId": "minecraft:birch_log",
-      "price": 3,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Name Tag",
-      "itemId": "minecraft:name_tag",
-      "price": 250,
-      "sellPrice": 75
-    },
-    {
-      "itemName": "White Dye",
-      "itemId": "minecraft:white_dye",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Gunpowder",
-      "itemId": "minecraft:gunpowder",
-      "price": 3,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Light Gray Dye",
-      "itemId": "minecraft:light_gray_dye",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Crossbow",
-      "itemId": "minecraft:crossbow",
-      "price": 170,
-      "sellPrice": 42
-    },
-    {
-      "itemName": "Netherite Scrap",
-      "itemId": "minecraft:netherite_scrap",
-      "price": 1300,
-      "sellPrice": 325
-    },
-    {
-      "itemName": "Birch Sapling",
-      "itemId": "minecraft:birch_sapling",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Cobblestone",
-      "itemId": "minecraft:cobblestone",
-      "price": 1,
-      "sellPrice": 0.05
-    },
-    {
-      "itemName": "Jungle Log",
-      "itemId": "minecraft:jungle_log",
-      "price": 5,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Diamond Leggings",
-      "itemId": "minecraft:diamond_leggings",
-      "price": 7100,
-      "sellPrice": 1775
-    },
-    {
-      "itemName": "Slime Ball",
-      "itemId": "minecraft:slime_ball",
-      "price": 100,
-      "sellPrice": 25
-    },
-    {
-      "itemName": "Cooked Chicken",
-      "itemId": "minecraft:cooked_chicken",
-      "price": 12,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Netherite Ingot",
-      "itemId": "minecraft:netherite_ingot",
-      "price": 5950,
-      "sellPrice": 1487
-    },
-    {
-      "itemName": "Diorite",
-      "itemId": "minecraft:diorite",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Granite",
-      "itemId": "minecraft:granite",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Spruce Log",
-      "itemId": "minecraft:spruce_log",
-      "price": 3,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Cooked Salmon",
-      "itemId": "minecraft:cooked_salmon)",
-      "price": 12,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Diamond",
-      "itemId": "minecraft:diamond",
-      "price": 1000,
-      "sellPrice": 250
-    },
-    {
-      "itemName": "Crimson Hyphae",
-      "itemId": "minecraft:crimson_hyphae",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Egg",
-      "itemId": "minecraft:egg",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Diamond Pickaxe",
-      "itemId": "minecraft:diamond_pickaxe",
-      "price": 3102,
-      "sellPrice": 775
-    },
-    {
-      "itemName": "Iron Ingot",
-      "itemId": "minecraft:iron_ingot",
-      "price": 70,
-      "sellPrice": 17
-    },
-    {
-      "itemName": "Gilded Blackstone",
-      "itemId": "minecraft:gilded_blackstone",
-      "price": 20,
-      "sellPrice": 5
-    },
-    {
-      "itemName": "Seeds",
-      "itemId": "minecraft:wheat_seeds",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Dead Fire Coral Block",
-      "itemId": "minecraft:dead_fire_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Red Dye",
-      "itemId": "minecraft:red_dye",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Cake",
-      "itemId": "minecraft:cake",
-      "price": 20,
-      "sellPrice": 5
-    },
-    {
-      "itemName": "Dark Oak Wood",
-      "itemId": "minecraft:dark_oak_wood",
-      "price": 2,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Sugar",
-      "itemId": "minecraft:sugar",
-      "price": 4,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Podzol",
-      "itemId": "minecraft:podzol",
-      "price": 1,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Nether Wart",
-      "itemId": "minecraft:nether_wart",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Iron Chestplate",
-      "itemId": "minecraft:iron_chestplate",
-      "price": 570,
-      "sellPrice": 142
-    },
-    {
-      "itemName": "Soul Soil",
-      "itemId": "minecraft:soul_soil",
-      "price": 5,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Ancient Debris",
-      "itemId": "minecraft:ancient_debris",
-      "price": 1250,
-      "sellPrice": 312
-    },
-    {
-      "itemName": "Diamond Axe",
-      "itemId": "minecraft:diamond_axe",
-      "price": 3102,
-      "sellPrice": 775
-    },
-    {
-      "itemName": "Vines",
-      "itemId": "minecraft:vine",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Netherite Shovel",
-      "itemId": "minecraft:netherite_shovel",
-      "price": 7152,
-      "sellPrice": 1788
-    },
-    {
-      "itemName": "Acacia Sapling",
-      "itemId": "minecraft:acacia_sapling",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Snow Ball",
-      "itemId": "minecraft:snowball",
-      "price": 3,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Nautilus Shell",
-      "itemId": "minecraft:nautilus_shell",
-      "price": 350,
-      "sellPrice": 87
-    },
-    {
-      "itemName": "Trident",
-      "itemId": "minecraft:trident",
-      "price": 2500,
-      "sellPrice": 625
-    },
-    {
-      "itemName": "Paper",
-      "itemId": "minecraft:paper",
-      "price": 7,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Ice",
-      "itemId": "minecraft:ice",
-      "price": 15,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Netherite Helmet",
-      "itemId": "minecraft:netherite_helmet",
-      "price": 11150,
-      "sellPrice": 2787
-    },
-    {
-      "itemName": "Birch Wood",
-      "itemId": "minecraft:birch_wood",
-      "price": 3,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Nether Quartz Ore",
-      "itemId": "minecraft:nether_quartz_ore",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Oak Log",
-      "itemId": "minecraft:oak_log",
-      "price": 1,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Brown Mushroom",
-      "itemId": "minecraft:brown_mushroom",
-      "price": 3,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Blue Ice",
-      "itemId": "minecraft:blue_ice",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Brown Mushroom Block",
-      "itemId": "minecraft:brown_mushroom_block",
-      "price": 2,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Blue Dye",
-      "itemId": "minecraft:blue_dye",
-      "price": 125,
-      "sellPrice": 31
-    },
-    {
-      "itemName": "Beetroot Seeds",
-      "itemId": "minecraft:beetroot_seeds",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Nether Star",
-      "itemId": "minecraft:nether_star",
-      "price": 10000,
-      "sellPrice": 2500
-    },
-    {
-      "itemName": "Scaffolding",
-      "itemId": "minecraft:scaffolding",
-      "price": 165,
-      "sellPrice": 41
-    },
-    {
-      "itemName": "Sugar Cane",
-      "itemId": "minecraft:sugar_cane",
-      "price": 2,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Netherite Pickaxe",
-      "itemId": "minecraft:netherite_pickaxe",
-      "price": 9152,
-      "sellPrice": 2288
-    },
-    {
-      "itemName": "Phantom Membrane",
-      "itemId": "minecraft:phantom_membrane",
-      "price": 75,
-      "sellPrice": 18
-    },
-    {
-      "itemName": "Bedrock",
-      "itemId": "minecraft:bedrock",
-      "price": 333,
-      "sellPrice": 83
-    },
-    {
-      "itemName": "Netherite Chestplate",
-      "itemId": "minecraft:netherite_chestplate",
-      "price": 14150,
-      "sellPrice": 3537
-    },
-    {
-      "itemName": "End Stone",
-      "itemId": "minecraft:end_stone",
-      "price": 25,
-      "sellPrice": 0.05
-    },
-    {
-      "itemName": "Sponge",
-      "itemId": "minecraft:sponge",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Spruce Wood",
-      "itemId": "minecraft:spruce_wood",
-      "price": 3,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Raw Cod",
-      "itemId": "minecraft:cod",
-      "price": 1,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Lapis Lazuli",
-      "itemId": "minecraft:lapis_lazuli",
-      "price": 125,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Bone Meal",
-      "itemId": "minecraft:bone_meal",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Obsidian",
-      "itemId": "minecraft:obsidian",
-      "price": 20,
-      "sellPrice": 5
-    },
-    {
-      "itemName": "Terracotta",
-      "itemId": "minecraft:terracotta",
-      "price": 38,
-      "sellPrice": 9
-    },
-    {
-      "itemName": "Warped Nylium",
-      "itemId": "minecraft:warped_nylium",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Quartz Block",
-      "itemId": "minecraft:quartz_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Cooked Mutton",
-      "itemId": "minecraft:cooked_mutton",
-      "price": 12,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Totem of Undying",
-      "itemId": "minecraft:totem_of_undying",
-      "price": 500,
-      "sellPrice": 125
-    },
-    {
-      "itemName": "Horn Coral Block",
-      "itemId": "minecraft:horn_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Shears",
-      "itemId": "minecraft:shears",
-      "price": 150,
-      "sellPrice": 37
-    },
-    {
-      "itemName": "Tube Coral Block",
-      "itemId": "minecraft:tube_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Iron Boots",
-      "itemId": "minecraft:iron_boots",
-      "price": 290,
-      "sellPrice": 72
-    },
-    {
-      "itemName": "Minecart",
-      "itemId": "minecraft:minecart",
-      "price": 360,
-      "sellPrice": 90
-    },
-    {
-      "itemName": "Iron Shovel",
-      "itemId": "minecraft:iron_shovel",
-      "price": 82,
-      "sellPrice": 20
-    },
-    {
-      "itemName": "Netherrack",
-      "itemId": "minecraft:netherrack",
-      "price": 1,
-      "sellPrice": 0.05
-    },
-    {
-      "itemName": "Glass",
-      "itemId": "minecraft:glass",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Bamboo",
-      "itemId": "minecraft:bamboo",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Bone Block",
-      "itemId": "minecraft:bone_block",
-      "price": 50,
-      "sellPrice": 12
-    },
-    {
-      "itemName": "Purple Dye",
-      "itemId": "minecraft:purple_dye",
-      "price": 135,
-      "sellPrice": 33
-    },
-    {
-      "itemName": "Cyan Dye",
-      "itemId": "minecraft:cyan_dye",
-      "price": 160,
-      "sellPrice": 40
-    },
-    {
-      "itemName": "Oak Wood",
-      "itemId": "minecraft:oak_wood",
-      "price": 1,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Dead Brain Coral Block",
-      "itemId": "minecraft:dead_brain_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Elytra",
-      "itemId": "minecraft:elytra",
-      "price": 100000,
-      "sellPrice": 25000
-    },
-    {
-      "itemName": "Gravel",
-      "itemId": "minecraft:gravel",
-      "price": 1,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Iron Pickaxe",
-      "itemId": "minecraft:iron_pickaxe",
-      "price": 222,
-      "sellPrice": 55
-    },
-    {
-      "itemName": "Dark Oak Sapling",
-      "itemId": "minecraft:dark_oak_sapling",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Gray Dye",
-      "itemId": "minecraft:gray_dye",
-      "price": 15,
-      "sellPrice": 4
-    },
-    {
-      "itemName": "Diamond Sword",
-      "itemId": "minecraft:diamond_sword",
-      "price": 2100,
-      "sellPrice": 525
-    },
-    {
-      "itemName": "Shield",
-      "itemId": "minecraft:shield",
-      "price": 86,
-      "sellPrice": 21
-    },
-    {
-      "itemName": "Bow",
-      "itemId": "minecraft:bow",
-      "price": 13,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Dirt",
-      "itemId": "minecraft:dirt",
-      "price": 1,
-      "sellPrice": 0.05
-    },
-    {
-      "itemName": "Dead Tube Coral Block",
-      "itemId": "minecraft:dead_tube_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Flint",
-      "itemId": "minecraft:flint",
-      "price": 20,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Netherite Leggings",
-      "itemId": "minecraft:netherite_leggings",
-      "price": 13150,
-      "sellPrice": 3287
-    },
-    {
-      "itemName": "Orange Dye",
-      "itemId": "minecraft:orange_dye",
-      "price": 35,
-      "sellPrice": 8
-    },
-    {
-      "itemName": "Cocoa Beans",
-      "itemId": "minecraft:cocoa_beans",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Warped Fungus",
-      "itemId": "minecraft:warped_fungus",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Sunflower",
-      "itemId": "minecraft:sunflower",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Baked Potato",
-      "itemId": "minecraft:baked_potato",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Lead",
-      "itemId": "minecraft:lead",
-      "price": 130,
-      "sellPrice": 32
-    },
-    {
-      "itemName": "Book",
-      "itemId": "minecraft:book",
-      "price": 28,
-      "sellPrice": 7
-    },
-    {
-      "itemName": "Arrow",
-      "itemId": "minecraft:arrow",
-      "price": 23,
-      "sellPrice": ""
-    },
-    {
-      "itemName": "Iron Helmet",
-      "itemId": "minecraft:iron_helmet",
-      "price": 360,
-      "sellPrice": 90
-    },
-    {
-      "itemName": "Honey Bottle",
-      "itemId": "minecraft:honey_bottle",
-      "price": 12,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Coal",
-      "itemId": "minecraft:coal",
-      "price": 8,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Light Blue Dye",
-      "itemId": "minecraft:light_blue_dye",
-      "price": 135,
-      "sellPrice": 33
-    },
-    {
-      "itemName": "Dark Oak Log",
-      "itemId": "minecraft:dark_oak_log",
-      "price": 2,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Lime Dye",
-      "itemId": "minecraft:lime_dye",
-      "price": 40,
-      "sellPrice": 10
-    },
-    {
-      "itemName": "Bread",
-      "itemId": "minecraft:bread",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Stone",
-      "itemId": "minecraft:stone",
-      "price": 3,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "String",
-      "itemId": "minecraft:string",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Diamond Helmet",
-      "itemId": "minecraft:diamond_helmet",
-      "price": 5100,
-      "sellPrice": 1275
-    },
-    {
-      "itemName": "Clay Block",
-      "itemId": "minecraft:clay",
-      "price": 33,
-      "sellPrice": 8
-    },
-    {
-      "itemName": "Diamond Boots",
-      "itemId": "minecraft:diamond_boots",
-      "price": 4100,
-      "sellPrice": 1025
-    },
-    {
-      "itemName": "Packed Ice",
-      "itemId": "minecraft:packed_ice",
-      "price": 20,
-      "sellPrice": 5
-    },
-    {
-      "itemName": "Netherite Boots",
-      "itemId": "minecraft:netherite_boots",
-      "price": 10150,
-      "sellPrice": 2537
-    },
-    {
-      "itemName": "Green Dye",
-      "itemId": "minecraft:green_dye",
-      "price": 30,
-      "sellPrice": 7
-    },
-    {
-      "itemName": "Dead Horn Coral Block",
-      "itemId": "minecraft:dead_horn_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Blackstone",
-      "itemId": "minecraft:blackstone",
-      "price": 15,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Crimson Fungus",
-      "itemId": "minecraft:crimson_fungus",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Soul Sand",
-      "itemId": "minecraft:soul_sand",
-      "price": 5,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Iron Sword",
-      "itemId": "minecraft:iron_sword",
-      "price": 151,
-      "sellPrice": 37
-    },
-    {
-      "itemName": "Cactus",
-      "itemId": "minecraft:cactus",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Pumpkin Seeds",
-      "itemId": "minecraft:pumpkin_seeds",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Jungle Sapling",
-      "itemId": "minecraft:jungle_sapling",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Spider Eye",
-      "itemId": "minecraft:spider_eye",
-      "price": 2,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Acacia Log",
-      "itemId": "minecraft:acacia_log",
-      "price": 5,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Brain Coral Block",
-      "itemId": "minecraft:brain_coral_block",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Leather",
-      "itemId": "minecraft:leather",
-      "price": 2,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Feather",
-      "itemId": "minecraft:feather",
-      "price": 2,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Torch",
-      "itemId": "minecraft:torch",
-      "price": 14,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Warped Wart Block",
-      "itemId": "minecraft:warped_wart_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Oak Sapling",
-      "itemId": "minecraft:oak_sapling",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Crimson Nylium",
-      "itemId": "minecraft:crimson_nylium",
-      "price": 5,
-      "sellPrice": 0.1
-    },
-    {
-      "itemName": "Brown Dye",
-      "itemId": "minecraft:brown_dye",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Yellow Dye",
-      "itemId": "minecraft:yellow_dye",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Black Dye",
-      "itemId": "minecraft:black_dye",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Fermented Spider Eye",
-      "itemId": "minecraft:fermented_spider_eye",
-      "price": 14,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Brick",
-      "itemId": "minecraft:brick",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Coarse Dirt",
-      "itemId": "minecraft:coarse_dirt",
-      "price": 2,
-      "sellPrice": 0.05
-    },
-    {
-      "itemName": "TNT",
-      "itemId": "minecraft:tnt",
-      "price": 32,
-      "sellPrice": 8
-    },
-    {
-      "itemName": "Netherite Sword",
-      "itemId": "minecraft:netherite_sword",
-      "price": 8150,
-      "sellPrice": 2037
-    },
-    {
-      "itemName": "Prismarine",
-      "itemId": "minecraft:prismarine",
-      "price": 25,
-      "sellPrice": 6
-    },
-    {
-      "itemName": "Magma Block",
-      "itemId": "minecraft:magma_block",
-      "price": 15,
-      "sellPrice": 3
-    },
-    {
-      "itemName": "Cooked Rabbit",
-      "itemId": "minecraft:cooked_rabbit",
-      "price": 10,
-      "sellPrice": 2
-    },
-    {
-      "itemName": "Crying Obsidian",
-      "itemId": "minecraft:crying_obsidian",
-      "price": 200,
-      "sellPrice": 50
-    },
-    {
-      "itemName": "Gold Ingot",
-      "itemId": "minecraft:gold_ingot",
-      "price": 175,
-      "sellPrice": 43
-    },
-    {
-      "itemName": "Fire Coral Block",
-      "itemId": "minecraft:fire_coral_block",
-      "price": 5,
-      "sellPrice": 1
-    },
-    {
-      "itemName": "Acacia Wood",
-      "itemId": "minecraft:acacia_wood",
-      "price": 5,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Jungle Wood",
-      "itemId": "minecraft:jungle_wood",
-      "price": 5,
-      "sellPrice": 0.5
-    },
-    {
-      "itemName": "Magenta Dye",
-      "itemId": "minecraft:magenta_dye",
-      "price": 155,
-      "sellPrice": 38
-    }
-  ]
+  {
+    "itemName": "Acacia Log",
+    "itemId": "minecraft:acacia_log",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Acacia Sapling",
+    "itemId": "minecraft:acacia_sapling",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Acacia Wood",
+    "itemId": "minecraft:acacia_wood",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Amethyst Shard",
+    "itemId": "minecraft:amethyst_shard",
+    "price": 8,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Ancient Debris",
+    "itemId": "minecraft:ancient_debris",
+    "price": 1250,
+    "sellPrice": 400
+  },
+  {
+    "itemName": "Andesite",
+    "itemId": "minecraft:andesite",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Arrow",
+    "itemId": "minecraft:arrow",
+    "price": 24,
+    "sellPrice": 5
+  },
+  {
+    "itemName": "Axolotl Spawn Egg",
+    "itemId": "minecraft:axolotl_spawn_egg",
+    "price": 25000
+  },
+  {
+    "itemName": "Baked Potato",
+    "itemId": "minecraft:baked_potato",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Bamboo",
+    "itemId": "minecraft:bamboo",
+    "price": 25,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Basalt",
+    "itemId": "minecraft:basalt",
+    "price": 10,
+    "sellPrice": 0.5
+  },
+  {
+    "itemName": "Bedrock",
+    "itemId": "minecraft:bedrock"
+  },
+  {
+    "itemName": "Beetroot Seeds",
+    "itemId": "minecraft:beetroot_seeds",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Birch Log",
+    "itemId": "minecraft:birch_log",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Birch Sapling",
+    "itemId": "minecraft:birch_sapling",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Birch Wood",
+    "itemId": "minecraft:birch_wood",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Black Dye",
+    "itemId": "minecraft:black_dye",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Blackstone",
+    "itemId": "minecraft:blackstone",
+    "price": 15,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Blaze Rod",
+    "itemId": "minecraft:blaze_rod",
+    "price": 10,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Block of Amethyst",
+    "itemId": "minecraft:amethyst_block",
+    "price": 40,
+    "sellPrice": 10
+  },
+  {
+    "itemName": "Block of Copper",
+    "itemId": "minecraft:copper_block",
+    "price": 562,
+    "sellPrice": 140
+  },
+  {
+    "itemName": "Blue Dye",
+    "itemId": "minecraft:blue_dye",
+    "price": 125,
+    "sellPrice": 31
+  },
+  {
+    "itemName": "Blue Ice",
+    "itemId": "minecraft:blue_ice",
+    "price": 25,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Bone Block",
+    "itemId": "minecraft:bone_block",
+    "price": 50,
+    "sellPrice": 12
+  },
+  {
+    "itemName": "Bone Meal",
+    "itemId": "minecraft:bone_meal",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Book",
+    "itemId": "minecraft:book",
+    "price": 28,
+    "sellPrice": 7
+  },
+  {
+    "itemName": "Bow",
+    "itemId": "minecraft:bow",
+    "price": 13,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Brain Coral Block",
+    "itemId": "minecraft:brain_coral_block",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Bread",
+    "itemId": "minecraft:bread",
+    "price": 20,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Brick",
+    "itemId": "minecraft:brick",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Brown Dye",
+    "itemId": "minecraft:brown_dye",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Brown Mushroom",
+    "itemId": "minecraft:brown_mushroom",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Brown Mushroom Block",
+    "itemId": "minecraft:brown_mushroom_block",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Bubble Coral Block",
+    "itemId": "minecraft:bubble_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Bundle",
+    "itemId": "minecraft:bundle",
+    "price": 237,
+    "sellPrice": 60
+  },
+  {
+    "itemName": "Cactus",
+    "itemId": "minecraft:cactus",
+    "price": 25,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Cake",
+    "itemId": "minecraft:cake",
+    "price": 20,
+    "sellPrice": 5
+  },
+  {
+    "itemName": "Calcite",
+    "itemId": "minecraft:calcite",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Candle",
+    "itemId": "minecraft:candle",
+    "price": 18,
+    "sellPrice": 5
+  },
+  {
+    "itemName": "Cat Spawn Egg",
+    "itemId": "minecraft:cat_spawn_egg",
+    "price": 20000
+  },
+  {
+    "itemName": "Charcoal",
+    "itemId": "minecraft:charcoal",
+    "price": 6,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Chest",
+    "itemId": "minecraft:chest",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Chicken Spawn Egg",
+    "itemId": "minecraft:chicken_spawn_egg",
+    "price": 5000
+  },
+  {
+    "itemName": "Clay",
+    "itemId": "minecraft:clay_ball",
+    "price": 30,
+    "sellPrice": 8
+  },
+  {
+    "itemName": "Clay Block",
+    "itemId": "minecraft:clay",
+    "price": 33,
+    "sellPrice": 8
+  },
+  {
+    "itemName": "Coal",
+    "itemId": "minecraft:coal",
+    "price": 10,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Coarse Dirt",
+    "itemId": "minecraft:coarse_dirt",
+    "price": 2,
+    "sellPrice": 0.1
+  },
+  {
+    "itemName": "Cobblestone",
+    "itemId": "minecraft:cobblestone",
+    "price": 1,
+    "sellPrice": 0.1
+  },
+  {
+    "itemName": "Cocoa Beans",
+    "itemId": "minecraft:cocoa_beans",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Cod Spawn Egg",
+    "itemId": "minecraft:cod_spawn_egg",
+    "price": 4000
+  },
+  {
+    "itemName": "Cooked Chicken",
+    "itemId": "minecraft:cooked_chicken",
+    "price": 12,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Cooked Mutton",
+    "itemId": "minecraft:cooked_mutton",
+    "price": 12,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Cooked Porkchop",
+    "itemId": "minecraft:cooked_porkchop",
+    "price": 16,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Cooked Rabbit",
+    "itemId": "minecraft:cooked_rabbit",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Cooked Salmon",
+    "itemId": "minecraft:cooked_salmon)",
+    "price": 20,
+    "sellPrice": 5
+  },
+  {
+    "itemName": "Cookie",
+    "itemId": "minecraft:cookie",
+    "price": 4,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Copper Ingot",
+    "itemId": "minecraft:copper_ingot",
+    "price": 50,
+    "sellPrice": 12
+  },
+  {
+    "itemName": "Cow Spawn Egg",
+    "itemId": "minecraft:cow_spawn_egg",
+    "price": 5000
+  },
+  {
+    "itemName": "Creeper Spawn Egg",
+    "itemId": "minecraft:creeper_spawn_egg",
+    "price": 25000
+  },
+  {
+    "itemName": "Crimson Fungus",
+    "itemId": "minecraft:crimson_fungus",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Crimson Hyphae",
+    "itemId": "minecraft:crimson_hyphae",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Crimson Nylium",
+    "itemId": "minecraft:crimson_nylium",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Crossbow",
+    "itemId": "minecraft:crossbow",
+    "price": 170,
+    "sellPrice": 42
+  },
+  {
+    "itemName": "Crying Obsidian",
+    "itemId": "minecraft:crying_obsidian",
+    "price": 500,
+    "sellPrice": 75
+  },
+  {
+    "itemName": "Cyan Dye",
+    "itemId": "minecraft:cyan_dye",
+    "price": 160,
+    "sellPrice": 40
+  },
+  {
+    "itemName": "Dark Oak Log",
+    "itemId": "minecraft:dark_oak_log",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Dark Oak Sapling",
+    "itemId": "minecraft:dark_oak_sapling",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Dark Oak Wood",
+    "itemId": "minecraft:dark_oak_wood",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Dark Prismarine",
+    "itemId": "minecraft:dark_prismarine",
+    "price": 16,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Dead Brain Coral Block",
+    "itemId": "minecraft:dead_brain_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Dead Bubble Coral Block",
+    "itemId": "minecraft:dead_bubble_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Dead Fire Coral Block",
+    "itemId": "minecraft:dead_fire_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Dead Horn Coral Block",
+    "itemId": "minecraft:dead_horn_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Dead Tube Coral Block",
+    "itemId": "minecraft:dead_tube_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Diamond",
+    "itemId": "minecraft:diamond",
+    "price": 1000,
+    "sellPrice": 250
+  },
+  {
+    "itemName": "Diamond Axe",
+    "itemId": "minecraft:diamond_axe",
+    "price": 3102,
+    "sellPrice": 775
+  },
+  {
+    "itemName": "Diamond Boots",
+    "itemId": "minecraft:diamond_boots",
+    "price": 4100,
+    "sellPrice": 1025
+  },
+  {
+    "itemName": "Diamond Chestplate",
+    "itemId": "minecraft:diamond_chestplate",
+    "price": 8100,
+    "sellPrice": 2025
+  },
+  {
+    "itemName": "Diamond Helmet",
+    "itemId": "minecraft:diamond_helmet",
+    "price": 5100,
+    "sellPrice": 1275
+  },
+  {
+    "itemName": "Diamond Hoe",
+    "itemId": "minecraft:diamond_hoe",
+    "price": 2102,
+    "sellPrice": 525
+  },
+  {
+    "itemName": "Diamond Leggings",
+    "itemId": "minecraft:diamond_leggings",
+    "price": 7100,
+    "sellPrice": 1775
+  },
+  {
+    "itemName": "Diamond Pickaxe",
+    "itemId": "minecraft:diamond_pickaxe",
+    "price": 3102,
+    "sellPrice": 775
+  },
+  {
+    "itemName": "Diamond Shovel",
+    "itemId": "minecraft:diamond_shovel",
+    "price": 1102,
+    "sellPrice": 275
+  },
+  {
+    "itemName": "Diamond Sword",
+    "itemId": "minecraft:diamond_sword",
+    "price": 2100,
+    "sellPrice": 525
+  },
+  {
+    "itemName": "Diorite",
+    "itemId": "minecraft:diorite",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Dirt",
+    "itemId": "minecraft:dirt",
+    "price": 1,
+    "sellPrice": 0.1
+  },
+  {
+    "itemName": "Dolphin Spawn Egg",
+    "itemId": "minecraft:dolphin_spawn_egg",
+    "price": 30000
+  },
+  {
+    "itemName": "Egg",
+    "itemId": "minecraft:egg",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Elytra",
+    "itemId": "minecraft:elytra",
+    "price": 100000,
+    "sellPrice": 25000
+  },
+  {
+    "itemName": "Emerald",
+    "itemId": "minecraft:emerald",
+    "price": 250,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "End Stone",
+    "itemId": "minecraft:end_stone",
+    "price": 25,
+    "sellPrice": 0.1
+  },
+  {
+    "itemName": "Ender Pearl",
+    "itemId": "minecraft:ender_pearl",
+    "price": 750,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Enderman Spawn Egg",
+    "itemId": "minecraft:enderman_spawn_egg",
+    "price": 30000
+  },
+  {
+    "itemName": "Feather",
+    "itemId": "minecraft:feather",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Fermented Spider Eye",
+    "itemId": "minecraft:fermented_spider_eye",
+    "price": 25,
+    "sellPrice": 7
+  },
+  {
+    "itemName": "Fire Coral Block",
+    "itemId": "minecraft:fire_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Fising Rod",
+    "itemId": "minecraft:fishing_rod",
+    "price": 23,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Flint",
+    "itemId": "minecraft:flint",
+    "price": 20,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Flint and Steel",
+    "itemId": "minecraft:flint_and_steel",
+    "price": 90,
+    "sellPrice": 22
+  },
+  {
+    "itemName": "Ghast Spawn Egg",
+    "itemId": "minecraft:ghast_spawn_egg",
+    "price": 35000
+  },
+  {
+    "itemName": "Gilded Blackstone",
+    "itemId": "minecraft:gilded_blackstone",
+    "price": 20,
+    "sellPrice": 5
+  },
+  {
+    "itemName": "Glass",
+    "itemId": "minecraft:glass",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Glow Lichen",
+    "itemId": "minecraft:glow_lichen",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Glowstone",
+    "itemId": "minecraft:glowstone",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Goat Spawn Egg",
+    "itemId": "minecraft:goat_spawn_egg",
+    "price": 12000
+  },
+  {
+    "itemName": "Gold Ingot",
+    "itemId": "minecraft:gold_ingot",
+    "price": 100,
+    "sellPrice": 15
+  },
+  {
+    "itemName": "Granite",
+    "itemId": "minecraft:granite",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Gravel",
+    "itemId": "minecraft:gravel",
+    "price": 1,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Gray Dye",
+    "itemId": "minecraft:gray_dye",
+    "price": 15,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Green Dye",
+    "itemId": "minecraft:green_dye",
+    "price": 30,
+    "sellPrice": 7
+  },
+  {
+    "itemName": "Gunpowder",
+    "itemId": "minecraft:gunpowder",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Honey Bottle",
+    "itemId": "minecraft:honey_bottle",
+    "price": 30,
+    "sellPrice": 8
+  },
+  {
+    "itemName": "Honeycomb",
+    "itemId": "minecraft:honeycomb",
+    "price": 10,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Horn Coral Block",
+    "itemId": "minecraft:horn_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Horse Spawn Egg",
+    "itemId": "minecraft:horse_spawn_egg",
+    "price": 8000
+  },
+  {
+    "itemName": "Ice",
+    "itemId": "minecraft:ice",
+    "price": 15,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Iron Axe",
+    "itemId": "minecraft:iron_axe",
+    "price": 222,
+    "sellPrice": 55
+  },
+  {
+    "itemName": "Iron Boots",
+    "itemId": "minecraft:iron_boots",
+    "price": 290,
+    "sellPrice": 72
+  },
+  {
+    "itemName": "Iron Chestplate",
+    "itemId": "minecraft:iron_chestplate",
+    "price": 570,
+    "sellPrice": 142
+  },
+  {
+    "itemName": "Iron Helmet",
+    "itemId": "minecraft:iron_helmet",
+    "price": 360,
+    "sellPrice": 90
+  },
+  {
+    "itemName": "Iron Ingot",
+    "itemId": "minecraft:iron_ingot",
+    "price": 70,
+    "sellPrice": 17
+  },
+  {
+    "itemName": "Iron Leggings",
+    "itemId": "minecraft:iron_leggings",
+    "price": 500,
+    "sellPrice": 125
+  },
+  {
+    "itemName": "Iron Pickaxe",
+    "itemId": "minecraft:iron_pickaxe",
+    "price": 222,
+    "sellPrice": 55
+  },
+  {
+    "itemName": "Iron Shovel",
+    "itemId": "minecraft:iron_shovel",
+    "price": 82,
+    "sellPrice": 20
+  },
+  {
+    "itemName": "Iron Sword",
+    "itemId": "minecraft:iron_sword",
+    "price": 151,
+    "sellPrice": 37
+  },
+  {
+    "itemName": "Jungle Log",
+    "itemId": "minecraft:jungle_log",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Jungle Sapling",
+    "itemId": "minecraft:jungle_sapling",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Jungle Wood",
+    "itemId": "minecraft:jungle_wood",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Lapis Lazuli",
+    "itemId": "minecraft:lapis_lazuli",
+    "price": 100,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Lead",
+    "itemId": "minecraft:lead",
+    "price": 250,
+    "sellPrice": 75
+  },
+  {
+    "itemName": "Leather",
+    "itemId": "minecraft:leather",
+    "price": 10,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Light Blue Dye",
+    "itemId": "minecraft:light_blue_dye",
+    "price": 135,
+    "sellPrice": 33
+  },
+  {
+    "itemName": "Light Gray Dye",
+    "itemId": "minecraft:light_gray_dye",
+    "price": 25,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Lightning Rod",
+    "itemId": "minecraft:lightning_rod",
+    "price": 187,
+    "sellPrice": 47
+  },
+  {
+    "itemName": "Lime Dye",
+    "itemId": "minecraft:lime_dye",
+    "price": 40,
+    "sellPrice": 10
+  },
+  {
+    "itemName": "Llama Spawn Egg",
+    "itemId": "minecraft:llama_spawn_egg",
+    "price": 10000
+  },
+  {
+    "itemName": "Magenta Dye",
+    "itemId": "minecraft:magenta_dye",
+    "price": 155,
+    "sellPrice": 38
+  },
+  {
+    "itemName": "Magma Block",
+    "itemId": "minecraft:magma_block",
+    "price": 15,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Melon Seeds",
+    "itemId": "minecraft:melon_seeds",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Minecart",
+    "itemId": "minecraft:minecart",
+    "price": 360,
+    "sellPrice": 90
+  },
+  {
+    "itemName": "Mooshroom Spawn Egg",
+    "itemId": "minecraft:mooshroom_spawn_egg",
+    "price": 15000
+  },
+  {
+    "itemName": "Mushroom Stem",
+    "itemId": "minecraft:mushroom_stem",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Mycelium",
+    "itemId": "minecraft:mycelium",
+    "price": 1,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Name Tag",
+    "itemId": "minecraft:name_tag",
+    "price": 500,
+    "sellPrice": 175
+  },
+  {
+    "itemName": "Nautilus Shell",
+    "itemId": "minecraft:nautilus_shell",
+    "price": 350,
+    "sellPrice": 87
+  },
+  {
+    "itemName": "Nether Brick",
+    "itemId": "minecraft:nether_brick",
+    "price": 2,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Nether Gold Ore",
+    "itemId": "minecraft:nether_gold_ore",
+    "price": 150,
+    "sellPrice": 37
+  },
+  {
+    "itemName": "Nether Quartz Ore",
+    "itemId": "minecraft:nether_quartz_ore",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Nether Star",
+    "itemId": "minecraft:nether_star",
+    "price": 25000,
+    "sellPrice": 15000
+  },
+  {
+    "itemName": "Nether Wart",
+    "itemId": "minecraft:nether_wart",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Netherite Axe",
+    "itemId": "minecraft:netherite_axe",
+    "price": 9152,
+    "sellPrice": 2288
+  },
+  {
+    "itemName": "Netherite Boots",
+    "itemId": "minecraft:netherite_boots",
+    "price": 10150,
+    "sellPrice": 2537
+  },
+  {
+    "itemName": "Netherite Chestplate",
+    "itemId": "minecraft:netherite_chestplate",
+    "price": 14150,
+    "sellPrice": 3537
+  },
+  {
+    "itemName": "Netherite Helmet",
+    "itemId": "minecraft:netherite_helmet",
+    "price": 11150,
+    "sellPrice": 2787
+  },
+  {
+    "itemName": "Netherite Ingot",
+    "itemId": "minecraft:netherite_ingot",
+    "price": 5950,
+    "sellPrice": 1487
+  },
+  {
+    "itemName": "Netherite Leggings",
+    "itemId": "minecraft:netherite_leggings",
+    "price": 13150,
+    "sellPrice": 3287
+  },
+  {
+    "itemName": "Netherite Pickaxe",
+    "itemId": "minecraft:netherite_pickaxe",
+    "price": 9152,
+    "sellPrice": 2288
+  },
+  {
+    "itemName": "Netherite Scrap",
+    "itemId": "minecraft:netherite_scrap",
+    "price": 1300,
+    "sellPrice": 450
+  },
+  {
+    "itemName": "Netherite Shovel",
+    "itemId": "minecraft:netherite_shovel",
+    "price": 7152,
+    "sellPrice": 1788
+  },
+  {
+    "itemName": "Netherite Sword",
+    "itemId": "minecraft:netherite_sword",
+    "price": 8150,
+    "sellPrice": 2037
+  },
+  {
+    "itemName": "Netherrack",
+    "itemId": "minecraft:netherrack",
+    "price": 1,
+    "sellPrice": 0.1
+  },
+  {
+    "itemName": "Oak Log",
+    "itemId": "minecraft:oak_log",
+    "price": 1,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Oak Sapling",
+    "itemId": "minecraft:oak_sapling",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Oak Wood",
+    "itemId": "minecraft:oak_wood",
+    "price": 1,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Obsidian",
+    "itemId": "minecraft:obsidian",
+    "price": 50,
+    "sellPrice": 12
+  },
+  {
+    "itemName": "Ocelot Spawn Egg",
+    "itemId": "minecraft:ocelot_spawn_egg",
+    "price": 15000
+  },
+  {
+    "itemName": "Orange Dye",
+    "itemId": "minecraft:orange_dye",
+    "price": 35,
+    "sellPrice": 8
+  },
+  {
+    "itemName": "Packed Ice",
+    "itemId": "minecraft:packed_ice",
+    "price": 250,
+    "sellPrice": 75
+  },
+  {
+    "itemName": "Panda Spawn Egg",
+    "itemId": "minecraft:panda_spawn_egg",
+    "price": 20000
+  },
+  {
+    "itemName": "Paper",
+    "itemId": "minecraft:paper",
+    "price": 7,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Parrot Spawn Egg",
+    "itemId": "minecraft:parrot_spawn_egg",
+    "price": 50000
+  },
+  {
+    "itemName": "Phantom Membrane",
+    "itemId": "minecraft:phantom_membrane",
+    "price": 375,
+    "sellPrice": 100
+  },
+  {
+    "itemName": "Pig Spawn Egg",
+    "itemId": "minecraft:pig_spawn_egg",
+    "price": 5000
+  },
+  {
+    "itemName": "Piglin Brute Spawn Egg",
+    "itemId": "minecraft:piglin_brute_spawn_egg",
+    "price": 40000
+  },
+  {
+    "itemName": "Pink Dye",
+    "itemId": "minecraft:pink_dye",
+    "price": 15,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Podzol",
+    "itemId": "minecraft:podzol",
+    "price": 1,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Polar Bear Spawn Egg",
+    "itemId": "minecraft:polar_bear_spawn_egg",
+    "price": 20000
+  },
+  {
+    "itemName": "Prismarine",
+    "itemId": "minecraft:prismarine",
+    "price": 15,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Pumpkin Pie",
+    "itemId": "minecraft:pumpkin_pie",
+    "price": 16,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Pumpkin Seeds",
+    "itemId": "minecraft:pumpkin_seeds",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Purple Dye",
+    "itemId": "minecraft:purple_dye",
+    "price": 135,
+    "sellPrice": 33
+  },
+  {
+    "itemName": "Quartz Block",
+    "itemId": "minecraft:quartz_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Rabbit Hide",
+    "itemId": "minecraft:rabbit_hide",
+    "price": 30,
+    "sellPrice": 12
+  },
+  {
+    "itemName": "Rabbit Spawn Egg",
+    "itemId": "minecraft:rabbit_spawn_egg",
+    "price": 8000
+  },
+  {
+    "itemName": "Raw Cod",
+    "itemId": "minecraft:cod",
+    "price": 1,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Red Dye",
+    "itemId": "minecraft:red_dye",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Red Mushroom",
+    "itemId": "minecraft:red_mushroom",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Red Mushroom Block",
+    "itemId": "minecraft:red_mushroom_block",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Redstone Dust",
+    "itemId": "minecraft:redstone",
+    "price": 6,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Saddle",
+    "itemId": "minecraft:saddle",
+    "price": 1000,
+    "sellPrice": 250
+  },
+  {
+    "itemName": "Salmon Spawn Egg",
+    "itemId": "minecraft:salmon_spawn_egg",
+    "price": 4000
+  },
+  {
+    "itemName": "Sand",
+    "itemId": "minecraft:sand",
+    "price": 3,
+    "sellPrice": 0.1
+  },
+  {
+    "itemName": "Sandstone",
+    "itemId": "minecraft:sandstone",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Scaffolding",
+    "itemId": "minecraft:scaffolding",
+    "price": 165,
+    "sellPrice": 41
+  },
+  {
+    "itemName": "Seeds",
+    "itemId": "minecraft:wheat_seeds",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Shears",
+    "itemId": "minecraft:shears",
+    "price": 150,
+    "sellPrice": 37
+  },
+  {
+    "itemName": "Sheep Spawn Egg",
+    "itemId": "minecraft:sheep_spawn_egg",
+    "price": 8000
+  },
+  {
+    "itemName": "Shield",
+    "itemId": "minecraft:shield",
+    "price": 86,
+    "sellPrice": 21
+  },
+  {
+    "itemName": "Shulker Spawn Egg",
+    "itemId": "minecraft:shulker_spawn_egg",
+    "price": 30000
+  },
+  {
+    "itemName": "Skulk Sensor",
+    "itemId": "minecraft:sculk_sensor",
+    "price": 7777
+  },
+  {
+    "itemName": "Slime Ball",
+    "itemId": "minecraft:slime_ball",
+    "price": 100,
+    "sellPrice": 25
+  },
+  {
+    "itemName": "Slime Spawn Egg",
+    "itemId": "minecraft:slime_spawn_egg",
+    "price": 15000
+  },
+  {
+    "itemName": "Snow Ball",
+    "itemId": "minecraft:snowball",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Soul Sand",
+    "itemId": "minecraft:soul_sand",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Soul Soil",
+    "itemId": "minecraft:soul_soil",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Soul Torch",
+    "itemId": "minecraft:soul_torch",
+    "price": 19,
+    "sellPrice": 5
+  },
+  {
+    "itemName": "Spider Eye",
+    "itemId": "minecraft:spider_eye",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Sponge",
+    "itemId": "minecraft:sponge",
+    "price": 25,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Spruce Log",
+    "itemId": "minecraft:spruce_log",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Spruce Sapling",
+    "itemId": "minecraft:spruce_sapling",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Spruce Wood",
+    "itemId": "minecraft:spruce_wood",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Spyglass",
+    "itemId": "minecraft:spyglass",
+    "price": 135,
+    "sellPrice": 34
+  },
+  {
+    "itemName": "Squid Spawn Egg",
+    "itemId": "minecraft:squid_spawn_egg",
+    "price": 15000
+  },
+  {
+    "itemName": "Steak",
+    "itemId": "minecraft:cooked_beef",
+    "price": 16,
+    "sellPrice": 4
+  },
+  {
+    "itemName": "Stone",
+    "itemId": "minecraft:stone",
+    "price": 3,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Strider Spawn Egg",
+    "itemId": "minecraft:strider_spawn_egg",
+    "price": 50000
+  },
+  {
+    "itemName": "String",
+    "itemId": "minecraft:string",
+    "price": 5,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Sugar",
+    "itemId": "minecraft:sugar",
+    "price": 4,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Sugar Cane",
+    "itemId": "minecraft:sugar_cane",
+    "price": 2,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Sunflower",
+    "itemId": "minecraft:sunflower",
+    "price": 25,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Sweet Berries",
+    "itemId": "minecraft:sweet_berries",
+    "price": 4,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Terracotta",
+    "itemId": "minecraft:terracotta",
+    "price": 38,
+    "sellPrice": 9
+  },
+  {
+    "itemName": "TNT",
+    "itemId": "minecraft:tnt",
+    "price": 32,
+    "sellPrice": 8
+  },
+  {
+    "itemName": "Torch",
+    "itemId": "minecraft:torch",
+    "price": 14,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Totem of Undying",
+    "itemId": "minecraft:totem_of_undying",
+    "price": 2500,
+    "sellPrice": 250
+  },
+  {
+    "itemName": "Trident",
+    "itemId": "minecraft:trident",
+    "price": 2500,
+    "sellPrice": 750
+  },
+  {
+    "itemName": "Tube Coral Block",
+    "itemId": "minecraft:tube_coral_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Turtle Spawn Egg",
+    "itemId": "minecraft:turtle_spawn_egg",
+    "price": 15000
+  },
+  {
+    "itemName": "Villager Spawn Egg",
+    "itemId": "minecraft:villager_spawn_egg",
+    "price": 75000
+  },
+  {
+    "itemName": "Vines",
+    "itemId": "minecraft:vine",
+    "price": 10,
+    "sellPrice": 3
+  },
+  {
+    "itemName": "Wandering Trader Spawn Egg",
+    "itemId": "minecraft:wandering_trader_spawn_egg",
+    "price": 75000
+  },
+  {
+    "itemName": "Warped Fungus",
+    "itemId": "minecraft:warped_fungus",
+    "price": 10,
+    "sellPrice": 2
+  },
+  {
+    "itemName": "Warped Hyphae",
+    "itemId": "minecraft:warped_hyphae",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Warped Nylium",
+    "itemId": "minecraft:warped_nylium",
+    "price": 5,
+    "sellPrice": 0.25
+  },
+  {
+    "itemName": "Warped Stem",
+    "itemId": "minecraft:warped_stem",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Warped Wart Block",
+    "itemId": "minecraft:warped_wart_block",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "White Dye",
+    "itemId": "minecraft:white_dye",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "White Wool",
+    "itemId": "minecraft:white_wool",
+    "price": 5,
+    "sellPrice": 1
+  },
+  {
+    "itemName": "Yellow Dye",
+    "itemId": "minecraft:yellow_dye",
+    "price": 25,
+    "sellPrice": 6
+  },
+  {
+    "itemName": "Zombie Spawn Egg",
+    "itemId": "minecraft:zombie_spawn_egg",
+    "price": 12000
+  }
+ ]
