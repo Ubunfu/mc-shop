@@ -1,6 +1,9 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v1.4.0]
+* [Adding more items from 1.17](https://github.com/Ubunfu/mc-shop/pull/28)
+
 ## [v1.3.0]
 * [Implementing get all items API](https://github.com/Ubunfu/mc-shop/pull/26)
 * [Adding get items API gateway endpoint](https://github.com/Ubunfu/mc-shop/pull/27)
